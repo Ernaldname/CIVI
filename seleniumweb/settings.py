@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-@fplj6amp_n*(z1^xb#%+8(a4xj2j739-&u6ilf5f5@hn+qruj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Permitir todas las conexiones entrantes (útil para ngrok - solo en desarrolo por seguridad)
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -102,6 +103,13 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+# Configuración para permitir solicitudes desde el dominio ngrok
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://9217ecdf8c60.ngrok-free.app"
+]
+
 
 
 # Internationalization

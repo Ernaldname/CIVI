@@ -237,3 +237,33 @@ input[type="number"], input[type="text"] {
     border-radius: 4px;
     padding: 3px 6px;
 }
+
+#resultados {
+    width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+    border: 2px solid #8E44AD; /* Morado medio */
+    background: rgba(232, 67, 147, 0.3); /* Fucsia translúcido */
+    padding: 20px;
+    overflow-y: auto;
+    text-align: center;
+    color: #fff;
+}
+#resultados img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+#resultados a {
+    display: block;
+    margin-top: 8px;
+    color: #9AEC6D; /* Verde claro */
+    font-weight: bold;
+    text-decoration: none;
+}
+#resultados a:hover {
+    text-decoration: underline;
+    color: #7ED957;
+}
+

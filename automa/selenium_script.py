@@ -6,16 +6,262 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoAlertPresentException, TimeoutException
+from selenium.common.exceptions import NoAlertPresentException
 
 # -----------------------------
-# 🚀 Función principal Selenium
+# 📁 Configuración de entorno
 # -----------------------------
-def ejecutar_proceso(NUMERO_DOCUMENTO):
-    BASE_DIR = os.getcwd()
-    DOWNLOAD_PATH = os.path.join(BASE_DIR, "media", "descargas")
-    os.makedirs(DOWNLOAD_PATH, exist_ok=True)
+BASE_DIR = os.getcwd()
+DOWNLOAD_PATH = os.path.join(BASE_DIR, "media", "descargas")
+os.makedirs(DOWNLOAD_PATH, exist_ok=True)
 
+logging.basicConfig(
+    filename="errores.log",
+    level=logging.ERROR,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+capturas, archivos = [], []
+NUMERO_DOCUMENTO = None  # será asignado dinámicamente
+
+# -----------------------------
+# 🔧 Funciones utilitarias
+# -----------------------------
+def tomar_captura(driver, pagina, evento="inicio"):
+    path = os.path.join(DOWNLOAD_PATH, f"{pagina}_{evento}.png")
+    driver.save_screenshot(path)
+    capturas.append(path)
+    print(f"📸 Captura guardada en: {path}")
+
+def esperar_elemento(driver, metodo, selector, timeout=10):
+    return WebDriverWait(driver, timeout).until(
+        EC.presence_of_element_located((metodo, selector))
+    )
+
+def esperar_clickable(driver, selector, timeout=10):
+    return WebDriverWait(driver, timeout).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
+    )
+
+def ejecutar_evento_extra(driver, pagina, evento, index):
+    tipo = evento["tipo"]
+    try:
+        if tipo == "scroll":
+            driver.execute_script(f"window.scrollBy(0, {evento['valor']});")
+        elif tipo == "zoom":
+            driver.execute_script(f"document.body.style.zoom = '{evento['valor']}';")
+        elif tipo == "retraso":
+            time.sleep(evento['valor'])
+        elif tipo == "espera_y_click":
+            contenedor = esperar_elemento(driver, By.CSS_SELECTOR, evento.get("contenedor", "body"))
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, evento["selector"]))
+            )
+            elemento = contenedor.find_element(By.CSS_SELECTOR, evento["selector"])
+            driver.execute_script("arguments[0].scrollIntoView(true);", elemento)
+            WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, evento["selector"])))
+            elemento.click()
+        elif tipo == "click":
+            esperar_clickable(driver, evento["selector"]).click()
+        elif tipo == "teclado":
+            input_el = esperar_elemento(driver, By.CSS_SELECTOR, evento["selector"])
+            input_el.send_keys(evento["tecla"])
+        elif tipo == "escribir":
+            input_el = esperar_elemento(driver, By.CSS_SELECTOR, evento["selector"])
+            input_el.clear()
+            texto = evento["texto"].replace("{DOC}", str(NUMERO_DOCUMENTO))
+            input_el.send_keys(texto)
+        time.sleep(1)
+        tomar_captura(driver, pagina, f"evento_{index}")
+    except Exception as e:
+        logging.warning(f"{pagina} - Evento {index} ({tipo}) no ejecutado: {e}")
+
+def manejar_iframe(driver, config, pagina):
+    if not config.get("iframe_tag"):
+        return
+    try:
+        iframe = esperar_elemento(driver, By.TAG_NAME, config["iframe_tag"])
+        driver.switch_to.frame(iframe)
+    except Exception as e:
+        logging.error(f"{pagina} - Iframe no encontrado: {e}")
+        raise
+
+def procesar_input(driver, config, pagina):
+    if not config.get("input_selector"):
+        return
+    metodo = By.XPATH if config["input_selector"].startswith("//") else By.CSS_SELECTOR
+    try:
+        input_box = esperar_elemento(driver, metodo, config["input_selector"])
+        input_box.send_keys(str(NUMERO_DOCUMENTO))
+        for tecla in config.get("eventos_teclado", []):
+            input_box.send_keys(tecla)
+            time.sleep(1)
+    except Exception as e:
+        logging.error(f"{pagina} - Error al escribir en input: {e}")
+        raise
+
+def manejar_descarga(pagina, timeout=30):
+    print("⏳ Esperando descarga...")
+    before = set(os.listdir(DOWNLOAD_PATH))
+    end_time = time.time() + timeout
+    while time.time() < end_time:
+        after = set(os.listdir(DOWNLOAD_PATH))
+        new_files = after - before
+        if new_files:
+            archivo = new_files.pop()
+            ruta = os.path.join(DOWNLOAD_PATH, archivo)
+            archivos.append(ruta)
+            print(f"✅ Archivo descargado: {ruta}")
+            return ruta
+        time.sleep(1)
+    logging.warning(f"{pagina} - Tiempo agotado sin descargas")
+    return None
+
+def aceptar_alerta_si_existe(driver, pagina):
+    try:
+        WebDriverWait(driver, 3).until(EC.alert_is_present())
+        alerta = driver.switch_to.alert
+        print(f"⚠️ Alerta detectada en {pagina}, aceptando...")
+        alerta.accept()
+        time.sleep(1)
+    except NoAlertPresentException:
+        pass
+    except Exception as e:
+        logging.warning(f"{pagina} - Error al manejar alerta: {e}")
+
+# -----------------------------
+# 🚀 Ejecución de páginas
+# -----------------------------
+def procesar_pagina(driver, pagina, config):
+    print(f"\n📌 Procesando: {pagina}")
+    try:
+        driver.get(config["url"])
+        aceptar_alerta_si_existe(driver, pagina)
+        manejar_iframe(driver, config, pagina)
+
+        # input primero o después según el caso
+        if pagina == "policia":
+            for i, evento in enumerate(config.get("extra_eventos", []), start=1):
+                ejecutar_evento_extra(driver, pagina, evento, i)
+            procesar_input(driver, config, pagina)
+        else:
+            procesar_input(driver, config, pagina)
+            for i, evento in enumerate(config.get("extra_eventos", []), start=1):
+                ejecutar_evento_extra(driver, pagina, evento, i)
+
+        # salir del iframe si entró
+        if config.get("iframe_tag"):
+            driver.switch_to.default_content()
+
+        # si tiene descarga
+        if config.get("descargar"):
+            manejar_descarga(pagina)
+
+        # si tiene captura al final
+        if config.get("captura_pantalla"):
+            tomar_captura(driver, pagina, "final")
+
+        # 👇 nuevo: esperar retraso si está configurado
+        if config.get("retraso"):
+            print(f"⏳ Esperando {config['retraso']} segundos antes de continuar...")
+            time.sleep(config["retraso"])
+
+    except Exception as e:
+        logging.error(f"{pagina} - Error general: {e}")
+    finally:
+        print(f"🔹 Finalizado: {pagina}")
+
+# -----------------------------
+# 🌐 Páginas a procesar
+# -----------------------------
+paginas = {
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "policia": {
+        "url": "https://antecedentes.policia.gov.co:7005/WebJudicial/",
+        "iframe_tag": None,
+        "input_selector": "#cedulaInput",
+        "eventos_teclado": [Keys.TAB],
+        "extra_eventos": [
+            {"tipo": "espera_y_click", "contenedor": "#aceptaOption > tbody", "selector": "#aceptaOption\\:0"},
+            {"tipo": "espera_y_click", "selector": "#continuarBtn"},
+            {"tipo": "espera_y_click", "selector": "#j_idt17 > span"}
+            ],
+        "eventos_teclado": [Keys.ENTER],
+            "retraso": 10,  # esperar 10 segundos para que cargue todo
+            "descargar": False,
+            "captura_pantalla": True
+            },
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    }
+}
+
+# -----------------------------
+# 🧭 Punto de entrada
+# -----------------------------
+def ejecutar_consulta(numero_doc):
+    global NUMERO_DOCUMENTO, capturas, archivos
+
+    # reiniciar variables para cada consulta
+    capturas, archivos = [], []
+    NUMERO_DOCUMENTO = numero_doc
+
+    # 🚀 Crear driver aquí (no arriba en global)
     chrome_options = webdriver.ChromeOptions()
     prefs = {
         "download.default_directory": DOWNLOAD_PATH,
@@ -24,140 +270,21 @@ def ejecutar_proceso(NUMERO_DOCUMENTO):
         "safebrowsing.enabled": True
     }
     chrome_options.add_experimental_option("prefs", prefs)
-    # chrome_options.add_argument("--headless")  # ⚠️ prueba primero visible
+    # chrome_options.add_argument("--headless")  # descomenta para modo invisible
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
 
     driver = webdriver.Chrome(options=chrome_options)
     driver.maximize_window()
 
-    logging.basicConfig(
-        filename="errores.log",
-        level=logging.ERROR,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
+    try:
+        for nombre, config in paginas.items():
+            procesar_pagina(driver, nombre, config)
+    finally:
+        driver.quit()
 
-    # Resultados acumulados
-    capturas, archivos = [], []
-
-    # -----------------------------
-    # 🔧 Utilidades
-    # -----------------------------
-    def tomar_captura(nombre):
-        path = os.path.join(DOWNLOAD_PATH, f"{nombre}.png")
-        driver.save_screenshot(path)
-        capturas.append(path)
-        print(f"📸 Captura guardada en: {path}")
-
-    def esperar_elemento(metodo, selector, timeout=10):
-        return WebDriverWait(driver, timeout).until(
-            EC.presence_of_element_located((metodo, selector))
-        )
-
-    def esperar_clickable(selector, timeout=10):
-        return WebDriverWait(driver, timeout).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
-        )
-
-    def manejar_descarga(nombre, timeout=30):
-        print("⏳ Esperando descarga...")
-        before = set(os.listdir(DOWNLOAD_PATH))
-        end_time = time.time() + timeout
-        while time.time() < end_time:
-            after = set(os.listdir(DOWNLOAD_PATH))
-            new_files = after - before
-            if new_files:
-                archivo = new_files.pop()
-                ruta = os.path.join(DOWNLOAD_PATH, archivo)
-                archivos.append(ruta)
-                print(f"✅ Archivo descargado: {ruta}")
-                return ruta
-            time.sleep(1)
-        logging.warning(f"{nombre} - Tiempo de espera agotado, sin descargas")
-        return None
-
-    def aceptar_alerta_si_existe(pagina):
-        try:
-            WebDriverWait(driver, 3).until(EC.alert_is_present())
-            alerta = driver.switch_to.alert
-            print(f"⚠️ Alerta detectada en {pagina}, aceptando...")
-            alerta.accept()
-            time.sleep(1)
-        except NoAlertPresentException:
-            pass
-        except Exception as e:
-            logging.warning(f"{pagina} - Error al manejar alerta: {e}")
-
-    # -----------------------------
-    # 🌐 Procesar cada página
-    # -----------------------------
-    def procesar_ofac():
-        try:
-            driver.get("https://sanctionssearch.ofac.treas.gov/")
-            tomar_captura("ofac_inicio")
-
-            input_box = esperar_elemento(By.CSS_SELECTOR, "#ctl00_MainContent_txtLastName")
-            input_box.clear()
-            input_box.send_keys(str(NUMERO_DOCUMENTO))
-            input_box.send_keys(Keys.ENTER)
-
-            time.sleep(3)
-            tomar_captura("ofac_resultado")
-            # 👉 Si hubiera descarga:
-            # manejar_descarga("ofac")
-
-        except Exception as e:
-            logging.error(f"OFAC error: {e}")
-
-    def procesar_contraloria():
-        try:
-            driver.get("https://www.contraloria.gov.co/web/guest/persona-juridica")
-            iframe = esperar_elemento(By.TAG_NAME, "iframe")
-            driver.switch_to.frame(iframe)
-
-            input_box = esperar_elemento(By.XPATH, "//input[@type='text']")
-            input_box.clear()
-            input_box.send_keys(str(NUMERO_DOCUMENTO))
-            input_box.send_keys(Keys.TAB)
-            input_box.send_keys(Keys.ENTER)
-
-            time.sleep(5)
-            tomar_captura("contraloria_resultado")
-            manejar_descarga("contraloria")
-
-            driver.switch_to.default_content()
-
-        except Exception as e:
-            logging.error(f"Contraloría error: {e}")
-
-    def procesar_policia():
-        try:
-            driver.get("https://antecedentes.policia.gov.co:7005/WebJudicial/")
-            aceptar_alerta_si_existe("policia")
-
-            input_box = esperar_elemento(By.CSS_SELECTOR, "#cedulaInput")
-            input_box.clear()
-            input_box.send_keys(str(NUMERO_DOCUMENTO))
-            input_box.send_keys(Keys.TAB)
-            input_box.send_keys(Keys.ENTER)
-
-            time.sleep(10)  # dejar que procese
-            tomar_captura("policia_resultado")
-
-        except Exception as e:
-            logging.error(f"Policía error: {e}")
-
-    # -----------------------------
-    # ▶️ Ejecutar todas
-    # -----------------------------
-    procesar_ofac()
-    procesar_contraloria()
-    procesar_policia()
-
-    driver.quit()
     print("\n🚀 Proceso completado.")
-
     return {
-        "capturas": [os.path.relpath(c, BASE_DIR) for c in capturas],
-        "archivos": [os.path.relpath(a, BASE_DIR) for a in archivos]
+        "capturas": capturas,
+        "archivos": archivos
     }

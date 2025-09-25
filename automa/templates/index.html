@@ -46,71 +46,83 @@
     </div>
 
     <!-- RESULTADOS -->
-            <fieldset class="lotes info-consultas">
-                <legend>INFORMACIÓN DE CONSULTAS RECIENTES</legend>
-                <div id="info-consultas">
-                    <div style="text-align:center;">
-                        <table style="margin: 0 auto;">
-                            <tr>
-                                <th>**ID**</th>
-                                <th>NOMBRE / RAZON SOCIAL</th>
-                                <th>DOCUMENTO DE IDENTIDAD O NIT</th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>START-POWER</td>
-                                <td>900062999</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>ELEFANTES</td>
-                                <td>900062992</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>EQUINOCC</td>
-                                <td>94343243</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>ELASTICS</td>
-                                <td>8902321389</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>ELEQUIBICK</td>
-                                <td>9454543455</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>ARAGN</td>
-                                <td>9454546557</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>EQUINOCC</td>
-                                <td>94343243</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>ELASTICS</td>
-                                <td>8902321389</td>
-                            </tr>
-                        </table>
-                        <br>                        
-                        <audio id="miSonidoJuridicaListado" src="minecraftsong.mp3"></audio>
-                        <button class="boton-animado" data-audio="miSonidoJuridicaListado">DESCARGAR LISTADO</button>
-                    </div>
-                </fieldset>
+    <fieldset class="lotes info-consultas">
+        <legend>INFORMACIÓN DE CONSULTAS RECIENTES</legend>
+        <div id="info-consultas">
+            <div style="text-align:center;">
+                <table style="margin: 0 auto;">
+                    <tr>
+                        <th>**ID**</th>
+                        <th>NOMBRE / RAZON SOCIAL</th>
+                        <th>DOCUMENTO DE IDENTIDAD O NIT</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>START-POWER</td>
+                        <td>900062999</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>ELEFANTES</td>
+                        <td>900062992</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>EQUINOCC</td>
+                        <td>94343243</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>ELASTICS</td>
+                        <td>8902321389</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>ELEQUIBICK</td>
+                        <td>9454543455</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>ARAGN</td>
+                        <td>9454546557</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>EQUINOCC</td>
+                        <td>94343243</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>ELASTICS</td>
+                        <td>8902321389</td>
+                    </tr>
+                </table>                        
+                <div style="text-align:center; margin-top:20px;">
+                    <a href="{% static 'listado.xlsx' %}" download>
+                        <button class="boton-animado">📥 DESCARGAR ULTIMO REGISTRO</button>
+                    </a>
                 </div>
-                </div>
-            </fieldset>
+            </div>
         </div>
-    </div>
+    </fieldset>
+</div>
+
+<!-- agregado -->
+<div id="resultados" style="margin-top:30px; text-align:center;">
+    <h2>📊 Resultados de la consulta</h2>
+    <p>Aquí se mostrarán las capturas y archivos generados por la consulta.</p>
+</div>
+<!-- fin agregado -->
 
 <script>
 async function buscarPN() {
     const numDoc = document.getElementById("numero_de_documento").value;
+
+    if (!numDoc) {
+        alert("⚠️ Por favor ingresa un número de documento");
+        return;
+    }
+
     const response = await fetch("/run/", {
         method: "POST",
         headers: {
@@ -119,26 +131,30 @@ async function buscarPN() {
         },
         body: "numero=" + encodeURIComponent(numDoc)
     });
+
     const data = await response.json();
 
+    const resultados = document.getElementById("resultados");
+    resultados.innerHTML = "<h2>📊 Resultados de la consulta</h2>"; // limpiar antes
+
     if (data.status === "ok") {
-        alert(data.msg);
+        resultados.innerHTML += `<p style="color:green;">${data.msg}</p>`;
 
-        const resultados = document.getElementById("resultados");
-        resultados.innerHTML = ""; // limpiar antes
-
-        if (data.capturas) {
+        if (data.capturas && data.capturas.length > 0) {
+            resultados.innerHTML += "<h3>📷 Capturas:</h3>";
             data.capturas.forEach(c => {
-                resultados.innerHTML += `<img src="${c}" style="max-width:00px;"><br>`;
+                resultados.innerHTML += `<img src="${c}" style="max-width:300px; margin:10px;"><br>`;
             });
         }
-        if (data.archivos) {
+
+        if (data.archivos && data.archivos.length > 0) {
+            resultados.innerHTML += "<h3>📂 Archivos:</h3>";
             data.archivos.forEach(a => {
-                resultados.innerHTML += `<a href="${a}" target="_blank">Descargar archivo</a><br>`;
+                resultados.innerHTML += `<a href="${a}" target="_blank">📥 Descargar archivo</a><br>`;
             });
         }
     } else {
-        alert(data.msg);
+        resultados.innerHTML += `<p style="color:red;">${data.msg}</p>`;
     }
 }
 </script>

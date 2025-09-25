@@ -1085,3 +1085,706 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ff93b6d7374+20]
 	RtlUserThreadStart [0x0x7ff93b83cc91+33]
 
+2025-09-24 09:15:36,288 - ERROR - contraloria - Iframe no encontrado: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb402fa]
+	(No symbol) [0x0x7ff69cb182a1]
+	(No symbol) [0x0x7ff69cbc799e]
+	(No symbol) [0x0x7ff69cbe8132]
+	(No symbol) [0x0x7ff69cbc0153]
+	(No symbol) [0x0x7ff69cb88b02]
+	(No symbol) [0x0x7ff69cb898d3]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	GetHandleVerifier [0x0x7ff69cdcaf64+117236]
+	GetHandleVerifier [0x0x7ff69cdcb119+117673]
+	GetHandleVerifier [0x0x7ff69cdb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:15:36,289 - ERROR - contraloria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb402fa]
+	(No symbol) [0x0x7ff69cb182a1]
+	(No symbol) [0x0x7ff69cbc799e]
+	(No symbol) [0x0x7ff69cbe8132]
+	(No symbol) [0x0x7ff69cbc0153]
+	(No symbol) [0x0x7ff69cb88b02]
+	(No symbol) [0x0x7ff69cb898d3]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	GetHandleVerifier [0x0x7ff69cdcaf64+117236]
+	GetHandleVerifier [0x0x7ff69cdcb119+117673]
+	GetHandleVerifier [0x0x7ff69cdb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:15:36,404 - ERROR - rues - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb402fa]
+	(No symbol) [0x0x7ff69cb182a1]
+	(No symbol) [0x0x7ff69cbc799e]
+	(No symbol) [0x0x7ff69cbe8132]
+	(No symbol) [0x0x7ff69cbc0153]
+	(No symbol) [0x0x7ff69cb88b02]
+	(No symbol) [0x0x7ff69cb898d3]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	GetHandleVerifier [0x0x7ff69cdcaf64+117236]
+	GetHandleVerifier [0x0x7ff69cdcb119+117673]
+	GetHandleVerifier [0x0x7ff69cdb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:15:36,617 - ERROR - ofac - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb402fa]
+	(No symbol) [0x0x7ff69cb182a1]
+	(No symbol) [0x0x7ff69cbc799e]
+	(No symbol) [0x0x7ff69cbe8132]
+	(No symbol) [0x0x7ff69cbc0153]
+	(No symbol) [0x0x7ff69cb88b02]
+	(No symbol) [0x0x7ff69cb898d3]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	GetHandleVerifier [0x0x7ff69cdcaf64+117236]
+	GetHandleVerifier [0x0x7ff69cdcb119+117673]
+	GetHandleVerifier [0x0x7ff69cdb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:15:36,704 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb402fa]
+	(No symbol) [0x0x7ff69cb182a1]
+	(No symbol) [0x0x7ff69cbc799e]
+	(No symbol) [0x0x7ff69cbe8132]
+	(No symbol) [0x0x7ff69cbc0153]
+	(No symbol) [0x0x7ff69cb88b02]
+	(No symbol) [0x0x7ff69cb898d3]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	GetHandleVerifier [0x0x7ff69cdcaf64+117236]
+	GetHandleVerifier [0x0x7ff69cdcb119+117673]
+	GetHandleVerifier [0x0x7ff69cdb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:15:36,717 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb402fa]
+	(No symbol) [0x0x7ff69cb182a1]
+	(No symbol) [0x0x7ff69cbc799e]
+	(No symbol) [0x0x7ff69cbe8132]
+	(No symbol) [0x0x7ff69cbc0153]
+	(No symbol) [0x0x7ff69cb88b02]
+	(No symbol) [0x0x7ff69cb898d3]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	GetHandleVerifier [0x0x7ff69cdcaf64+117236]
+	GetHandleVerifier [0x0x7ff69cdcb119+117673]
+	GetHandleVerifier [0x0x7ff69cdb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:40:13,855 - WARNING - Not Found: /
+2025-09-24 09:40:15,752 - WARNING - Not Found: /
+2025-09-24 09:42:35,248 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-09-24 09:43:03,341 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\urls.py changed, reloading.
+2025-09-24 09:45:03,093 - ERROR - contraloria - Error general: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb402fa]
+	(No symbol) [0x0x7ff69cb2c0a5]
+	(No symbol) [0x0x7ff69cb5144a]
+	(No symbol) [0x0x7ff69cbc7be6]
+	(No symbol) [0x0x7ff69cbe8132]
+	(No symbol) [0x0x7ff69cbc0153]
+	(No symbol) [0x0x7ff69cb88b02]
+	(No symbol) [0x0x7ff69cb898d3]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	GetHandleVerifier [0x0x7ff69cdcaf64+117236]
+	GetHandleVerifier [0x0x7ff69cdcb119+117673]
+	GetHandleVerifier [0x0x7ff69cdb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:45:03,273 - ERROR - rues - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb4011c]
+	(No symbol) [0x0x7ff69cb87c1d]
+	(No symbol) [0x0x7ff69cbc0242]
+	(No symbol) [0x0x7ff69cbbac14]
+	(No symbol) [0x0x7ff69cbb9cca]
+	(No symbol) [0x0x7ff69cb0a755]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	(No symbol) [0x0x7ff69cb09731]
+	GetHandleVerifier [0x0x7ff69d1ab568+4182008]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:45:03,276 - ERROR - ofac - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb4011c]
+	(No symbol) [0x0x7ff69cb87c1d]
+	(No symbol) [0x0x7ff69cbc0242]
+	(No symbol) [0x0x7ff69cbbac14]
+	(No symbol) [0x0x7ff69cbb9cca]
+	(No symbol) [0x0x7ff69cb0a755]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	(No symbol) [0x0x7ff69cb09731]
+	GetHandleVerifier [0x0x7ff69d1ab568+4182008]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:45:03,278 - ERROR - policia - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb4011c]
+	(No symbol) [0x0x7ff69cb87c1d]
+	(No symbol) [0x0x7ff69cbc0242]
+	(No symbol) [0x0x7ff69cbbac14]
+	(No symbol) [0x0x7ff69cbb9cca]
+	(No symbol) [0x0x7ff69cb0a755]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	(No symbol) [0x0x7ff69cb09731]
+	GetHandleVerifier [0x0x7ff69d1ab568+4182008]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:45:03,283 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb4011c]
+	(No symbol) [0x0x7ff69cb87c1d]
+	(No symbol) [0x0x7ff69cbc0242]
+	(No symbol) [0x0x7ff69cbbac14]
+	(No symbol) [0x0x7ff69cbb9cca]
+	(No symbol) [0x0x7ff69cb0a755]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	(No symbol) [0x0x7ff69cb09731]
+	GetHandleVerifier [0x0x7ff69d1ab568+4182008]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 09:45:50,998 - ERROR - contraloria - Error general: HTTPConnectionPool(host='localhost', port=54474): Max retries exceeded with url: /session/8d8410d5e6334f41ac9063a09ecf4b79/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0264AEA0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+2025-09-24 09:46:07,309 - ERROR - rues - Error general: HTTPConnectionPool(host='localhost', port=54474): Max retries exceeded with url: /session/8d8410d5e6334f41ac9063a09ecf4b79/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F029E05A0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+2025-09-24 09:46:23,600 - ERROR - ofac - Error general: HTTPConnectionPool(host='localhost', port=54474): Max retries exceeded with url: /session/8d8410d5e6334f41ac9063a09ecf4b79/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F029E0F30>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+2025-09-24 09:46:39,905 - ERROR - policia - Error general: HTTPConnectionPool(host='localhost', port=54474): Max retries exceeded with url: /session/8d8410d5e6334f41ac9063a09ecf4b79/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F029E18C0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+2025-09-24 09:46:56,300 - ERROR - contaduria - Error general: HTTPConnectionPool(host='localhost', port=54474): Max retries exceeded with url: /session/8d8410d5e6334f41ac9063a09ecf4b79/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F029E2250>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+2025-09-24 09:49:50,413 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-09-24 09:59:03,133 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 09:59:59,359 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-09-24 10:07:20,014 - ERROR - rues - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69cdc1eb5+80197]
+	GetHandleVerifier [0x0x7ff69cdc1f10+80288]
+	(No symbol) [0x0x7ff69cb402fa]
+	(No symbol) [0x0x7ff69cb3d001]
+	(No symbol) [0x0x7ff69cb2da49]
+	(No symbol) [0x0x7ff69cb2f821]
+	(No symbol) [0x0x7ff69cb2dd66]
+	(No symbol) [0x0x7ff69cb2d7b7]
+	(No symbol) [0x0x7ff69cb2d47b]
+	(No symbol) [0x0x7ff69cb2afec]
+	(No symbol) [0x0x7ff69cb2b87c]
+	(No symbol) [0x0x7ff69cb443ca]
+	(No symbol) [0x0x7ff69cbe95de]
+	(No symbol) [0x0x7ff69cbc037a]
+	(No symbol) [0x0x7ff69cbe87fb]
+	(No symbol) [0x0x7ff69cbc0153]
+	(No symbol) [0x0x7ff69cb88b02]
+	(No symbol) [0x0x7ff69cb898d3]
+	GetHandleVerifier [0x0x7ff69d07e83d+2949837]
+	GetHandleVerifier [0x0x7ff69d078c6a+2926330]
+	GetHandleVerifier [0x0x7ff69d0986c7+3055959]
+	GetHandleVerifier [0x0x7ff69cddcfee+191102]
+	GetHandleVerifier [0x0x7ff69cde50af+224063]
+	GetHandleVerifier [0x0x7ff69cdcaf64+117236]
+	GetHandleVerifier [0x0x7ff69cdcb119+117673]
+	GetHandleVerifier [0x0x7ff69cdb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff936537374+20]
+	RtlUserThreadStart [0x0x7ff93735cc91+33]
+
+2025-09-24 13:57:17,816 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 18:57:19,395 - WARNING - Not Found: /favicon.ico
+2025-09-24 18:58:32,095 - ERROR - rues - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725bcd001]
+	(No symbol) [0x0x7ff725bbda49]
+	(No symbol) [0x0x7ff725bbf821]
+	(No symbol) [0x0x7ff725bbdd66]
+	(No symbol) [0x0x7ff725bbd7b7]
+	(No symbol) [0x0x7ff725bbd47b]
+	(No symbol) [0x0x7ff725bbafec]
+	(No symbol) [0x0x7ff725bbb87c]
+	(No symbol) [0x0x7ff725bd43ca]
+	(No symbol) [0x0x7ff725c795de]
+	(No symbol) [0x0x7ff725c5037a]
+	(No symbol) [0x0x7ff725c787fb]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:03:37,202 - ERROR - rues - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725bcd001]
+	(No symbol) [0x0x7ff725bbda49]
+	(No symbol) [0x0x7ff725bbf821]
+	(No symbol) [0x0x7ff725bbdd66]
+	(No symbol) [0x0x7ff725bbd7b7]
+	(No symbol) [0x0x7ff725bbd47b]
+	(No symbol) [0x0x7ff725bbafec]
+	(No symbol) [0x0x7ff725bbb87c]
+	(No symbol) [0x0x7ff725bd43ca]
+	(No symbol) [0x0x7ff725c795de]
+	(No symbol) [0x0x7ff725c5037a]
+	(No symbol) [0x0x7ff725c787fb]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:06:11,277 - ERROR - rues - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725bcd001]
+	(No symbol) [0x0x7ff725bbda49]
+	(No symbol) [0x0x7ff725bbf821]
+	(No symbol) [0x0x7ff725bbdd66]
+	(No symbol) [0x0x7ff725bbd7b7]
+	(No symbol) [0x0x7ff725bbd47b]
+	(No symbol) [0x0x7ff725bbafec]
+	(No symbol) [0x0x7ff725bbb87c]
+	(No symbol) [0x0x7ff725bd43ca]
+	(No symbol) [0x0x7ff725c795de]
+	(No symbol) [0x0x7ff725c5037a]
+	(No symbol) [0x0x7ff725c787fb]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:11:21,848 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:21:39,093 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:21:57,444 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:22:02,980 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:26:50,326 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:27:10,060 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:27:15,848 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:30:22,571 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:33:30,885 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:39:32,098 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:43:37,514 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:43:56,844 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:44:07,919 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:45:43,030 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:47:11,247 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:47:48,424 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:48:03,740 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:51:55,045 - ERROR - contraloria - Iframe no encontrado: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:51:55,046 - ERROR - contraloria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:51:55,094 - ERROR - rues - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:51:55,108 - ERROR - ofac - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:51:55,125 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:51:55,134 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:52:02,298 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:55:52,166 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:55:58,801 - ERROR - contraloria - Iframe no encontrado: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:55:58,802 - ERROR - contraloria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:55:58,815 - ERROR - rues - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:55:58,827 - ERROR - ofac - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:55:58,843 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:55:58,856 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.185)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff725e51eb5+80197]
+	GetHandleVerifier [0x0x7ff725e51f10+80288]
+	(No symbol) [0x0x7ff725bd02fa]
+	(No symbol) [0x0x7ff725ba82a1]
+	(No symbol) [0x0x7ff725c5799e]
+	(No symbol) [0x0x7ff725c78132]
+	(No symbol) [0x0x7ff725c50153]
+	(No symbol) [0x0x7ff725c18b02]
+	(No symbol) [0x0x7ff725c198d3]
+	GetHandleVerifier [0x0x7ff72610e83d+2949837]
+	GetHandleVerifier [0x0x7ff726108c6a+2926330]
+	GetHandleVerifier [0x0x7ff7261286c7+3055959]
+	GetHandleVerifier [0x0x7ff725e6cfee+191102]
+	GetHandleVerifier [0x0x7ff725e750af+224063]
+	GetHandleVerifier [0x0x7ff725e5af64+117236]
+	GetHandleVerifier [0x0x7ff725e5b119+117673]
+	GetHandleVerifier [0x0x7ff725e410a8+11064]
+	BaseThreadInitThunk [0x0x7ffda06b7374+20]
+	RtlUserThreadStart [0x0x7ffda19dcc91+33]
+
+2025-09-24 19:56:18,482 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:59:17,933 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:59:26,565 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 19:59:36,420 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-09-24 20:28:21,354 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.

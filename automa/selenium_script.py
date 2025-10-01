@@ -28,10 +28,21 @@ NUMERO_DOCUMENTO = None  # será asignado dinámicamente
 # 🔧 Funciones utilitarias
 # -----------------------------
 def tomar_captura(driver, pagina, evento="inicio"):
-    path = os.path.join(DOWNLOAD_PATH, f"{pagina}_{evento}.png")
-    driver.save_screenshot(path)
-    capturas.append(path)
-    print(f"📸 Captura guardada en: {path}")
+    """
+    Guarda una captura de pantalla en media/descargas y genera la URL accesible por Django.
+    """
+    nombre_archivo = f"{pagina}_{evento}.png"
+    ruta_absoluta = os.path.join(DOWNLOAD_PATH, nombre_archivo)
+
+    # Guardar captura
+    driver.save_screenshot(ruta_absoluta)
+
+    # Crear URL relativa para que el navegador la pueda abrir
+    ruta_relativa = f"/media/descargas/{nombre_archivo}"
+
+    capturas.append(ruta_relativa)
+    print(f"📸 Captura guardada en: {ruta_absoluta} -> visible como {ruta_relativa}")
+
 
 def esperar_elemento(driver, metodo, selector, timeout=10):
     return WebDriverWait(driver, timeout).until(
@@ -218,7 +229,7 @@ paginas = {
             {"tipo": "espera_y_click", "selector": "#continuarBtn"},
             {"tipo": "espera_y_click", "selector": "#j_idt17 > span"}
             ],
-        "eventos_teclado": [Keys.ENTER],
+            "eventos_teclado": [Keys.ENTER],
             "retraso": 10,  # esperar 10 segundos para que cargue todo
             "descargar": False,
             "captura_pantalla": True

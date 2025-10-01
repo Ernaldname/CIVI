@@ -1,0 +1,156 @@
+/* 🎥 Video de fondo */
+#video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.85;
+    background: #0B132B;
+}
+
+/* 🌌 Fondo general */
+body {
+    background: linear-gradient(135deg, #000000 0%, #0B132B 100%);
+    color: #E8F1F2;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ✨ Título con efecto sutil */
+.titulo {
+    color: #E8F1F2;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.2em;
+    font-weight: bold;
+    border: 2px solid #6EC1E4;
+    border-radius: 10px;
+    background: rgba(39, 73, 109, 0.7);
+    padding: 12px 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px rgba(110, 193, 228, 0.3);
+    text-shadow: 0 0 8px rgba(110, 193, 228, 0.3);
+}
+
+/* 🧩 Contenedor principal */
+.contenedor-central {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+/* 🟦 Caja translúcida */
+.ajustado {
+    width: 600px;
+    border-radius: 10px;
+    border: 2px solid #6EC1E4;
+    background: rgba(110, 193, 228, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(110, 193, 228, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ajustado:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(110, 193, 228, 0.4);
+}
+
+/* 🏷️ Leyenda */
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #E8F1F2;
+    background: #27496D;
+    border-radius: 8px;
+    border: 2px solid #6EC1E4;
+    padding: 6px 0;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(110, 193, 228, 0.4);
+}
+
+/* 📋 Select */
+select.milista1 {
+    width: 350px;
+    height: 32px;
+    background-color: #6EC1E4;
+    color: #0B132B;
+    border: 1px solid #27496D;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(110,193,228,0.5);
+    transition: transform 0.2s;
+}
+select.milista1:hover {
+    transform: scale(1.05);
+}
+
+/* 🎛️ Inputs */
+input[type="number"], input[type="text"] {
+    color: #0B132B;
+    background: #E8F1F2;
+    border: 2px solid #6EC1E4;
+    border-radius: 6px;
+    padding: 6px 8px;
+    box-shadow: 0 0 6px rgba(110,193,228,0.4);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+input[type="number"]:focus, input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 12px rgba(110,193,228,0.6);
+    transform: scale(1.02);
+}
+
+input[type="nameId"], input[type="text"] {
+    color: #0B132B;
+    background: #E8F1F2;
+    border: 2px solid #6EC1E4;
+    border-radius: 6px;
+    padding: 6px 8px;
+    box-shadow: 0 0 6px rgba(110,193,228,0.4);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+input[type="nameId"]:focus, input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 12px rgba(110,193,228,0.6);
+    transform: scale(1.02);
+}
+
+/* 💡 Botón animado */
+.boton-animado {
+    background-color: #6EC1E4;
+    color: #0B132B;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 8px 4px;
+    box-shadow: 0 0 10px rgba(110,193,228,0.5);
+    transition: all 0.25s ease;
+}
+.boton-animado:hover {
+    background-color: #27496D;
+    color: #E8F1F2;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(39,73,109,0.8), 0 0 40px rgba(110,193,228,0.5);
+}
+
+/* 📱 Responsive */
+@media (max-width: 1000px) {
+    .ajustado {
+        width: 90%;
+        max-width: 500px;
+    }
+    .titulo { width: 90%; font-size: 1.6em; }
+}

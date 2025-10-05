@@ -3228,3 +3228,4086 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ff86df47374+20]
 	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
 
+2025-10-01 11:21:04,663 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    
+
+    "policia": {
+        "url": "https://antecedentes.policia.gov.co:7005/WebJudicial/",
+        "iframe_tag": None,
+        "input_selector": "#cedulaInput",
+        "eventos_teclado": [Keys.TAB],
+        "extra_eventos": [
+            {"tipo": "espera_y_click", "contenedor": "#aceptaOption > tbody", "selector": "#aceptaOption\:0"},
+            {"tipo": "espera_y_click", "selector": "#continuarBtn"},
+            {"tipo": "espera_y_click", "selector": "#j_idt17 > span"}
+            ],
+            "eventos_teclado": [Keys.ENTER],
+            "retraso": 10,  # esperar 10 segundos para que cargue todo
+            "descargar": False,
+            "captura_pantalla": True
+            },
+            
+            
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    }
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:21:04,665 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    
+
+    "policia": {
+        "url": "https://antecedentes.policia.gov.co:7005/WebJudicial/",
+        "iframe_tag": None,
+        "input_selector": "#cedulaInput",
+        "eventos_teclado": [Keys.TAB],
+        "extra_eventos": [
+            {"tipo": "espera_y_click", "contenedor": "#aceptaOption > tbody", "selector": "#aceptaOption\:0"},
+            {"tipo": "espera_y_click", "selector": "#continuarBtn"},
+            {"tipo": "espera_y_click", "selector": "#j_idt17 > span"}
+            ],
+            "eventos_teclado": [Keys.ENTER],
+            "retraso": 10,  # esperar 10 segundos para que cargue todo
+            "descargar": False,
+            "captura_pantalla": True
+            },
+            
+            
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    }
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:22:31,095 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    
+
+    "policia": {
+        "url": "https://antecedentes.policia.gov.co:7005/WebJudicial/",
+        "iframe_tag": None,
+        "input_selector": "#cedulaInput",
+        "eventos_teclado": [Keys.TAB],
+        "extra_eventos": [
+            {"tipo": "espera_y_click", "contenedor": "#aceptaOption > tbody", "selector": "#aceptaOption\:0"},
+            {"tipo": "espera_y_click", "selector": "#continuarBtn"},
+            {"tipo": "espera_y_click", "selector": "#j_idt17 > span"}
+            ],
+            "eventos_teclado": [Keys.ENTER],
+            "retraso": 10,  # esperar 10 segundos para que cargue todo
+            "descargar": False,
+            "captura_pantalla": True
+            },
+            
+            
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    }
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:22:31,096 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    
+
+    "policia": {
+        "url": "https://antecedentes.policia.gov.co:7005/WebJudicial/",
+        "iframe_tag": None,
+        "input_selector": "#cedulaInput",
+        "eventos_teclado": [Keys.TAB],
+        "extra_eventos": [
+            {"tipo": "espera_y_click", "contenedor": "#aceptaOption > tbody", "selector": "#aceptaOption\:0"},
+            {"tipo": "espera_y_click", "selector": "#continuarBtn"},
+            {"tipo": "espera_y_click", "selector": "#j_idt17 > span"}
+            ],
+            "eventos_teclado": [Keys.ENTER],
+            "retraso": 10,  # esperar 10 segundos para que cargue todo
+            "descargar": False,
+            "captura_pantalla": True
+            },
+            
+            
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    }
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:26:34,620 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:31:48,279 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:32:32,866 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:32:38,139 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:33:28,680 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:33:28,681 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:36:28,911 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:36:28,911 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:41:42,548 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:42:54,297 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:42:54,298 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:44:13,994 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:46:11,590 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:48:08,976 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:48:38,053 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:51:05,628 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:51:05,629 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:53:47,260 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:53:58,540 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 11:57:58,348 - ERROR - ofac - Error al escribir en input: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:57:58,349 - ERROR - ofac - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:57:58,384 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:57:58,396 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 11:58:38,446 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 12:05:50,864 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 12:12:01,427 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 12:12:50,045 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 12:14:23,551 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 12:14:23,554 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 12:27:38,185 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 12:27:38,186 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 12:37:13,097 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 12:38:10,471 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 12:38:54,355 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 12:38:59,308 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 12:40:01,586 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 12:40:01,587 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:19:24,393 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    policia - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a6d001]
+	(No symbol) [0x0x7ff6d3a5da49]
+	(No symbol) [0x0x7ff6d3a5f821]
+	(No symbol) [0x0x7ff6d3a5dd66]
+	(No symbol) [0x0x7ff6d3a5d7b7]
+	(No symbol) [0x0x7ff6d3a5d47b]
+	(No symbol) [0x0x7ff6d3a5afec]
+	(No symbol) [0x0x7ff6d3a5b87c]
+	(No symbol) [0x0x7ff6d3a743ca]
+	(No symbol) [0x0x7ff6d3b195de]
+	(No symbol) [0x0x7ff6d3af037a]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:19:24,547 - ERROR - contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a6d001]
+	(No symbol) [0x0x7ff6d3a5da49]
+	(No symbol) [0x0x7ff6d3a5f821]
+	(No symbol) [0x0x7ff6d3a5dd66]
+	(No symbol) [0x0x7ff6d3a5d7b7]
+	(No symbol) [0x0x7ff6d3a5d47b]
+	(No symbol) [0x0x7ff6d3a5afec]
+	(No symbol) [0x0x7ff6d3a5b87c]
+	(No symbol) [0x0x7ff6d3a743ca]
+	(No symbol) [0x0x7ff6d3b195de]
+	(No symbol) [0x0x7ff6d3af037a]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:24:52,362 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:25:08,533 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:25:44,341 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:26:05,723 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:26:14,462 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:26:28,005 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:29:06,287 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:29:13,443 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    ofac - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a6d001]
+	(No symbol) [0x0x7ff6d3a5da49]
+	(No symbol) [0x0x7ff6d3a5f821]
+	(No symbol) [0x0x7ff6d3a5dd66]
+	(No symbol) [0x0x7ff6d3a5d7b7]
+	(No symbol) [0x0x7ff6d3a5d47b]
+	(No symbol) [0x0x7ff6d3a5afec]
+	(No symbol) [0x0x7ff6d3a5b87c]
+	(No symbol) [0x0x7ff6d3a743ca]
+	(No symbol) [0x0x7ff6d3b195de]
+	(No symbol) [0x0x7ff6d3af037a]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:29:13,741 - ERROR - policia - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a6d001]
+	(No symbol) [0x0x7ff6d3a5da49]
+	(No symbol) [0x0x7ff6d3a5f821]
+	(No symbol) [0x0x7ff6d3a5dd66]
+	(No symbol) [0x0x7ff6d3a5d7b7]
+	(No symbol) [0x0x7ff6d3a5d47b]
+	(No symbol) [0x0x7ff6d3a5afec]
+	(No symbol) [0x0x7ff6d3a5b87c]
+	(No symbol) [0x0x7ff6d3a743ca]
+	(No symbol) [0x0x7ff6d3b195de]
+	(No symbol) [0x0x7ff6d3af037a]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:29:13,979 - ERROR - contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a6d001]
+	(No symbol) [0x0x7ff6d3a5da49]
+	(No symbol) [0x0x7ff6d3a5f821]
+	(No symbol) [0x0x7ff6d3a5dd66]
+	(No symbol) [0x0x7ff6d3a5d7b7]
+	(No symbol) [0x0x7ff6d3a5d47b]
+	(No symbol) [0x0x7ff6d3a5afec]
+	(No symbol) [0x0x7ff6d3a5b87c]
+	(No symbol) [0x0x7ff6d3a743ca]
+	(No symbol) [0x0x7ff6d3b195de]
+	(No symbol) [0x0x7ff6d3af037a]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:29:29,811 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:55:16,045 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 13:58:39,510 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    ofac - Error al escribir en input: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:39,512 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    ofac - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:39,555 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:39,580 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:40,336 - ERROR - policia - Error al escribir en input: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:40,337 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:40,356 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:41,572 - ERROR - policia - Error al escribir en input: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:41,573 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:58:41,601 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:59:29,550 - ERROR - policia - Error al escribir en input: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a7011c]
+	(No symbol) [0x0x7ff6d3ab7c1d]
+	(No symbol) [0x0x7ff6d3af0242]
+	(No symbol) [0x0x7ff6d3aeac14]
+	(No symbol) [0x0x7ff6d3ae9cca]
+	(No symbol) [0x0x7ff6d3a3a755]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	(No symbol) [0x0x7ff6d3a39731]
+	GetHandleVerifier [0x0x7ff6d40db568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:59:29,551 - ERROR - policia - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a7011c]
+	(No symbol) [0x0x7ff6d3ab7c1d]
+	(No symbol) [0x0x7ff6d3af0242]
+	(No symbol) [0x0x7ff6d3aeac14]
+	(No symbol) [0x0x7ff6d3ae9cca]
+	(No symbol) [0x0x7ff6d3a3a755]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	(No symbol) [0x0x7ff6d3a39731]
+	GetHandleVerifier [0x0x7ff6d40db568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:59:29,556 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a7011c]
+	(No symbol) [0x0x7ff6d3ab7c1d]
+	(No symbol) [0x0x7ff6d3af0242]
+	(No symbol) [0x0x7ff6d3aeac14]
+	(No symbol) [0x0x7ff6d3ae9cca]
+	(No symbol) [0x0x7ff6d3a3a755]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	(No symbol) [0x0x7ff6d3a39731]
+	GetHandleVerifier [0x0x7ff6d40db568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 13:59:50,393 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:01:56,244 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:02:08,578 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:02:24,807 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:03:49,878 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:05:10,236 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:05:56,545 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:07:01,345 - ERROR - policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:07:01,347 - ERROR - policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:07:25,617 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:07:53,176 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:08:33,887 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:08:33,888 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:09:18,815 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:13:47,652 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:13:47,652 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:13:49,255 - ERROR - contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a6d001]
+	(No symbol) [0x0x7ff6d3a5da49]
+	(No symbol) [0x0x7ff6d3a5f821]
+	(No symbol) [0x0x7ff6d3a5dd66]
+	(No symbol) [0x0x7ff6d3a5d7b7]
+	(No symbol) [0x0x7ff6d3a5d47b]
+	(No symbol) [0x0x7ff6d3a5afec]
+	(No symbol) [0x0x7ff6d3a5b87c]
+	(No symbol) [0x0x7ff6d3a743ca]
+	(No symbol) [0x0x7ff6d3b195de]
+	(No symbol) [0x0x7ff6d3af037a]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:14:53,789 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:14:53,789 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:14:53,856 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:17:09,996 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: HTTPConnectionPool(host='localhost', port=54162): Read timed out. (read timeout=120)
+2025-10-01 14:17:14,509 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3a482a1]
+	(No symbol) [0x0x7ff6d3af799e]
+	(No symbol) [0x0x7ff6d3b18132]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:18:19,955 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:18:19,956 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:20:43,303 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:20:43,304 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:21:19,272 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 14:21:57,120 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:21:57,121 - ERROR -  
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    
+    
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d3cf1eb5+80197]
+	GetHandleVerifier [0x0x7ff6d3cf1f10+80288]
+	(No symbol) [0x0x7ff6d3a702fa]
+	(No symbol) [0x0x7ff6d3ac7cd7]
+	(No symbol) [0x0x7ff6d3ac7f9c]
+	(No symbol) [0x0x7ff6d3b1ba87]
+	(No symbol) [0x0x7ff6d3af03bf]
+	(No symbol) [0x0x7ff6d3b187fb]
+	(No symbol) [0x0x7ff6d3af0153]
+	(No symbol) [0x0x7ff6d3ab8b02]
+	(No symbol) [0x0x7ff6d3ab98d3]
+	GetHandleVerifier [0x0x7ff6d3fae83d+2949837]
+	GetHandleVerifier [0x0x7ff6d3fa8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6d3fc86c7+3055959]
+	GetHandleVerifier [0x0x7ff6d3d0cfee+191102]
+	GetHandleVerifier [0x0x7ff6d3d150af+224063]
+	GetHandleVerifier [0x0x7ff6d3cfaf64+117236]
+	GetHandleVerifier [0x0x7ff6d3cfb119+117673]
+	GetHandleVerifier [0x0x7ff6d3ce10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 14:30:08,858 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-01 15:33:45,906 - ERROR -  
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+             ],
+            "descargar": False,
+            "captura_pantalla": True
+            },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5fc1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f5fc1f10+80288]
+	(No symbol) [0x0x7ff7f5d402fa]
+	(No symbol) [0x0x7ff7f5d97cd7]
+	(No symbol) [0x0x7ff7f5d97f9c]
+	(No symbol) [0x0x7ff7f5deba87]
+	(No symbol) [0x0x7ff7f5dc03bf]
+	(No symbol) [0x0x7ff7f5de87fb]
+	(No symbol) [0x0x7ff7f5dc0153]
+	(No symbol) [0x0x7ff7f5d88b02]
+	(No symbol) [0x0x7ff7f5d898d3]
+	GetHandleVerifier [0x0x7ff7f627e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f6278c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f62986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f5fdcfee+191102]
+	GetHandleVerifier [0x0x7ff7f5fe50af+224063]
+	GetHandleVerifier [0x0x7ff7f5fcaf64+117236]
+	GetHandleVerifier [0x0x7ff7f5fcb119+117673]
+	GetHandleVerifier [0x0x7ff7f5fb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 15:33:45,913 - ERROR -  
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+             ],
+            "descargar": False,
+            "captura_pantalla": True
+            },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5fc1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f5fc1f10+80288]
+	(No symbol) [0x0x7ff7f5d402fa]
+	(No symbol) [0x0x7ff7f5d97cd7]
+	(No symbol) [0x0x7ff7f5d97f9c]
+	(No symbol) [0x0x7ff7f5deba87]
+	(No symbol) [0x0x7ff7f5dc03bf]
+	(No symbol) [0x0x7ff7f5de87fb]
+	(No symbol) [0x0x7ff7f5dc0153]
+	(No symbol) [0x0x7ff7f5d88b02]
+	(No symbol) [0x0x7ff7f5d898d3]
+	GetHandleVerifier [0x0x7ff7f627e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f6278c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f62986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f5fdcfee+191102]
+	GetHandleVerifier [0x0x7ff7f5fe50af+224063]
+	GetHandleVerifier [0x0x7ff7f5fcaf64+117236]
+	GetHandleVerifier [0x0x7ff7f5fcb119+117673]
+	GetHandleVerifier [0x0x7ff7f5fb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 15:34:48,370 - ERROR -  
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+             ],
+            "descargar": False,
+            "captura_pantalla": True
+            },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5fc1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f5fc1f10+80288]
+	(No symbol) [0x0x7ff7f5d402fa]
+	(No symbol) [0x0x7ff7f5d97cd7]
+	(No symbol) [0x0x7ff7f5d97f9c]
+	(No symbol) [0x0x7ff7f5deba87]
+	(No symbol) [0x0x7ff7f5dc03bf]
+	(No symbol) [0x0x7ff7f5de87fb]
+	(No symbol) [0x0x7ff7f5dc0153]
+	(No symbol) [0x0x7ff7f5d88b02]
+	(No symbol) [0x0x7ff7f5d898d3]
+	GetHandleVerifier [0x0x7ff7f627e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f6278c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f62986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f5fdcfee+191102]
+	GetHandleVerifier [0x0x7ff7f5fe50af+224063]
+	GetHandleVerifier [0x0x7ff7f5fcaf64+117236]
+	GetHandleVerifier [0x0x7ff7f5fcb119+117673]
+	GetHandleVerifier [0x0x7ff7f5fb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 15:34:48,371 - ERROR -  
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+             ],
+            "descargar": False,
+            "captura_pantalla": True
+            },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5fc1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f5fc1f10+80288]
+	(No symbol) [0x0x7ff7f5d402fa]
+	(No symbol) [0x0x7ff7f5d97cd7]
+	(No symbol) [0x0x7ff7f5d97f9c]
+	(No symbol) [0x0x7ff7f5deba87]
+	(No symbol) [0x0x7ff7f5dc03bf]
+	(No symbol) [0x0x7ff7f5de87fb]
+	(No symbol) [0x0x7ff7f5dc0153]
+	(No symbol) [0x0x7ff7f5d88b02]
+	(No symbol) [0x0x7ff7f5d898d3]
+	GetHandleVerifier [0x0x7ff7f627e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f6278c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f62986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f5fdcfee+191102]
+	GetHandleVerifier [0x0x7ff7f5fe50af+224063]
+	GetHandleVerifier [0x0x7ff7f5fcaf64+117236]
+	GetHandleVerifier [0x0x7ff7f5fcb119+117673]
+	GetHandleVerifier [0x0x7ff7f5fb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-01 15:43:04,718 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 10:56:06,201 - ERROR -  
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+             ],
+            "descargar": False,
+            "captura_pantalla": True
+            },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f7ec1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f7ec1f10+80288]
+	(No symbol) [0x0x7ff7f7c402fa]
+	(No symbol) [0x0x7ff7f7c97cd7]
+	(No symbol) [0x0x7ff7f7c97f9c]
+	(No symbol) [0x0x7ff7f7ceba87]
+	(No symbol) [0x0x7ff7f7cc03bf]
+	(No symbol) [0x0x7ff7f7ce87fb]
+	(No symbol) [0x0x7ff7f7cc0153]
+	(No symbol) [0x0x7ff7f7c88b02]
+	(No symbol) [0x0x7ff7f7c898d3]
+	GetHandleVerifier [0x0x7ff7f817e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f8178c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f81986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f7edcfee+191102]
+	GetHandleVerifier [0x0x7ff7f7ee50af+224063]
+	GetHandleVerifier [0x0x7ff7f7ecaf64+117236]
+	GetHandleVerifier [0x0x7ff7f7ecb119+117673]
+	GetHandleVerifier [0x0x7ff7f7eb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-02 10:56:06,204 - ERROR -  
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+             ],
+            "descargar": False,
+            "captura_pantalla": True
+            },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f7ec1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f7ec1f10+80288]
+	(No symbol) [0x0x7ff7f7c402fa]
+	(No symbol) [0x0x7ff7f7c97cd7]
+	(No symbol) [0x0x7ff7f7c97f9c]
+	(No symbol) [0x0x7ff7f7ceba87]
+	(No symbol) [0x0x7ff7f7cc03bf]
+	(No symbol) [0x0x7ff7f7ce87fb]
+	(No symbol) [0x0x7ff7f7cc0153]
+	(No symbol) [0x0x7ff7f7c88b02]
+	(No symbol) [0x0x7ff7f7c898d3]
+	GetHandleVerifier [0x0x7ff7f817e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f8178c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f81986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f7edcfee+191102]
+	GetHandleVerifier [0x0x7ff7f7ee50af+224063]
+	GetHandleVerifier [0x0x7ff7f7ecaf64+117236]
+	GetHandleVerifier [0x0x7ff7f7ecb119+117673]
+	GetHandleVerifier [0x0x7ff7f7eb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-02 10:57:35,223 - ERROR -  
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+             ],
+            "descargar": False,
+            "captura_pantalla": True
+            },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f7ec1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f7ec1f10+80288]
+	(No symbol) [0x0x7ff7f7c402fa]
+	(No symbol) [0x0x7ff7f7c97cd7]
+	(No symbol) [0x0x7ff7f7c97f9c]
+	(No symbol) [0x0x7ff7f7ceba87]
+	(No symbol) [0x0x7ff7f7cc03bf]
+	(No symbol) [0x0x7ff7f7ce87fb]
+	(No symbol) [0x0x7ff7f7cc0153]
+	(No symbol) [0x0x7ff7f7c88b02]
+	(No symbol) [0x0x7ff7f7c898d3]
+	GetHandleVerifier [0x0x7ff7f817e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f8178c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f81986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f7edcfee+191102]
+	GetHandleVerifier [0x0x7ff7f7ee50af+224063]
+	GetHandleVerifier [0x0x7ff7f7ecaf64+117236]
+	GetHandleVerifier [0x0x7ff7f7ecb119+117673]
+	GetHandleVerifier [0x0x7ff7f7eb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-02 10:57:35,223 - ERROR -  
+    "contaduria": {
+        "url": "https://eris.contaduria.gov.co/BDME/",
+        "iframe_tag": None,
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.8},
+            {"tipo": "scroll", "valor": 100},
+            {"tipo": "retraso", "valor": 10},
+            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
+            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
+            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
+            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
+            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
+            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "retraso", "valor": 10}
+             ],
+            "descargar": False,
+            "captura_pantalla": True
+            },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "iframe_tag": None,
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "scroll", "valor": 200}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    
+    policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f7ec1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f7ec1f10+80288]
+	(No symbol) [0x0x7ff7f7c402fa]
+	(No symbol) [0x0x7ff7f7c97cd7]
+	(No symbol) [0x0x7ff7f7c97f9c]
+	(No symbol) [0x0x7ff7f7ceba87]
+	(No symbol) [0x0x7ff7f7cc03bf]
+	(No symbol) [0x0x7ff7f7ce87fb]
+	(No symbol) [0x0x7ff7f7cc0153]
+	(No symbol) [0x0x7ff7f7c88b02]
+	(No symbol) [0x0x7ff7f7c898d3]
+	GetHandleVerifier [0x0x7ff7f817e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f8178c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f81986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f7edcfee+191102]
+	GetHandleVerifier [0x0x7ff7f7ee50af+224063]
+	GetHandleVerifier [0x0x7ff7f7ecaf64+117236]
+	GetHandleVerifier [0x0x7ff7f7ecb119+117673]
+	GetHandleVerifier [0x0x7ff7f7eb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-02 11:04:07,304 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:12:11,907 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:23:37,406 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:24:00,477 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:24:06,516 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:24:42,411 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:25:00,213 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:31:14,914 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:35:28,851 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:37:24,488 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:38:48,809 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:38:52,198 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:40:26,958 - ERROR - policia - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f7ec1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f7ec1f10+80288]
+	(No symbol) [0x0x7ff7f7c4011c]
+	(No symbol) [0x0x7ff7f7c87c1d]
+	(No symbol) [0x0x7ff7f7cc0242]
+	(No symbol) [0x0x7ff7f7cbac14]
+	(No symbol) [0x0x7ff7f7cb9cca]
+	(No symbol) [0x0x7ff7f7c0a755]
+	GetHandleVerifier [0x0x7ff7f817e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f8178c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f81986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f7edcfee+191102]
+	GetHandleVerifier [0x0x7ff7f7ee50af+224063]
+	(No symbol) [0x0x7ff7f7c09731]
+	GetHandleVerifier [0x0x7ff7f82ab568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-02 11:40:31,349 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:41:07,044 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:42:06,569 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-02 11:51:38,449 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f7ec1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f7ec1f10+80288]
+	(No symbol) [0x0x7ff7f7c402fa]
+	(No symbol) [0x0x7ff7f7c182a1]
+	(No symbol) [0x0x7ff7f7cc799e]
+	(No symbol) [0x0x7ff7f7ce8132]
+	(No symbol) [0x0x7ff7f7cc0153]
+	(No symbol) [0x0x7ff7f7c88b02]
+	(No symbol) [0x0x7ff7f7c898d3]
+	GetHandleVerifier [0x0x7ff7f817e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f8178c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f81986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f7edcfee+191102]
+	GetHandleVerifier [0x0x7ff7f7ee50af+224063]
+	GetHandleVerifier [0x0x7ff7f7ecaf64+117236]
+	GetHandleVerifier [0x0x7ff7f7ecb119+117673]
+	GetHandleVerifier [0x0x7ff7f7eb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-02 11:55:02,928 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f7ec1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f7ec1f10+80288]
+	(No symbol) [0x0x7ff7f7c402fa]
+	(No symbol) [0x0x7ff7f7c182a1]
+	(No symbol) [0x0x7ff7f7cc799e]
+	(No symbol) [0x0x7ff7f7ce8132]
+	(No symbol) [0x0x7ff7f7cc0153]
+	(No symbol) [0x0x7ff7f7c88b02]
+	(No symbol) [0x0x7ff7f7c898d3]
+	GetHandleVerifier [0x0x7ff7f817e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f8178c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f81986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f7edcfee+191102]
+	GetHandleVerifier [0x0x7ff7f7ee50af+224063]
+	GetHandleVerifier [0x0x7ff7f7ecaf64+117236]
+	GetHandleVerifier [0x0x7ff7f7ecb119+117673]
+	GetHandleVerifier [0x0x7ff7f7eb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-02 12:03:47,117 - ERROR - policia - Error general: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+2025-10-02 12:03:52,541 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f7ec1eb5+80197]
+	GetHandleVerifier [0x0x7ff7f7ec1f10+80288]
+	(No symbol) [0x0x7ff7f7c402fa]
+	(No symbol) [0x0x7ff7f7c182a1]
+	(No symbol) [0x0x7ff7f7cc799e]
+	(No symbol) [0x0x7ff7f7ce8132]
+	(No symbol) [0x0x7ff7f7cc0153]
+	(No symbol) [0x0x7ff7f7c88b02]
+	(No symbol) [0x0x7ff7f7c898d3]
+	GetHandleVerifier [0x0x7ff7f817e83d+2949837]
+	GetHandleVerifier [0x0x7ff7f8178c6a+2926330]
+	GetHandleVerifier [0x0x7ff7f81986c7+3055959]
+	GetHandleVerifier [0x0x7ff7f7edcfee+191102]
+	GetHandleVerifier [0x0x7ff7f7ee50af+224063]
+	GetHandleVerifier [0x0x7ff7f7ecaf64+117236]
+	GetHandleVerifier [0x0x7ff7f7ecb119+117673]
+	GetHandleVerifier [0x0x7ff7f7eb10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-04 20:46:40,577 - ERROR - policia - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f011c]
+	(No symbol) [0x0x7ff698a37c1d]
+	(No symbol) [0x0x7ff698a70242]
+	(No symbol) [0x0x7ff698a6ac14]
+	(No symbol) [0x0x7ff698a69cca]
+	(No symbol) [0x0x7ff6989ba755]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	(No symbol) [0x0x7ff6989b9731]
+	GetHandleVerifier [0x0x7ff69905b568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-04 20:48:12,106 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 20:51:03,191 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 20:57:03,275 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 20:58:57,426 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 20:59:29,344 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 21:01:21,968 - ERROR - policia - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f011c]
+	(No symbol) [0x0x7ff698a37c1d]
+	(No symbol) [0x0x7ff698a70242]
+	(No symbol) [0x0x7ff698a6ac14]
+	(No symbol) [0x0x7ff698a69cca]
+	(No symbol) [0x0x7ff6989ba755]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	(No symbol) [0x0x7ff6989b9731]
+	GetHandleVerifier [0x0x7ff69905b568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-04 21:03:57,799 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 21:09:25,799 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 21:13:30,521 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:03:11,855 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:04:51,373 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:05:17,997 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:33:36,703 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:40:34,218 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:41:43,732 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:41:49,946 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:42:58,217 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:47:14,093 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:47:46,847 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:47:55,472 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:48:51,299 - ERROR - policia - Error al escribir en input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f02fa]
+	(No symbol) [0x0x7ff698a47cd7]
+	(No symbol) [0x0x7ff698a47f9c]
+	(No symbol) [0x0x7ff698a9ba87]
+	(No symbol) [0x0x7ff698a703bf]
+	(No symbol) [0x0x7ff698a987fb]
+	(No symbol) [0x0x7ff698a70153]
+	(No symbol) [0x0x7ff698a38b02]
+	(No symbol) [0x0x7ff698a398d3]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	GetHandleVerifier [0x0x7ff698c7af64+117236]
+	GetHandleVerifier [0x0x7ff698c7b119+117673]
+	GetHandleVerifier [0x0x7ff698c610a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-04 23:48:51,300 - ERROR - policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f02fa]
+	(No symbol) [0x0x7ff698a47cd7]
+	(No symbol) [0x0x7ff698a47f9c]
+	(No symbol) [0x0x7ff698a9ba87]
+	(No symbol) [0x0x7ff698a703bf]
+	(No symbol) [0x0x7ff698a987fb]
+	(No symbol) [0x0x7ff698a70153]
+	(No symbol) [0x0x7ff698a38b02]
+	(No symbol) [0x0x7ff698a398d3]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	GetHandleVerifier [0x0x7ff698c7af64+117236]
+	GetHandleVerifier [0x0x7ff698c7b119+117673]
+	GetHandleVerifier [0x0x7ff698c610a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-04 23:52:09,174 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:56:26,594 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-04 23:56:33,930 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:03:45,758 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:04:07,887 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:06:37,600 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:07:54,740 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:09:20,067 - ERROR - rues - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f02fa]
+	(No symbol) [0x0x7ff6989ed001]
+	(No symbol) [0x0x7ff6989dda49]
+	(No symbol) [0x0x7ff6989df821]
+	(No symbol) [0x0x7ff6989ddd66]
+	(No symbol) [0x0x7ff6989dd7b7]
+	(No symbol) [0x0x7ff6989dd47b]
+	(No symbol) [0x0x7ff6989dafec]
+	(No symbol) [0x0x7ff6989db87c]
+	(No symbol) [0x0x7ff6989f43ca]
+	(No symbol) [0x0x7ff698a995de]
+	(No symbol) [0x0x7ff698a7037a]
+	(No symbol) [0x0x7ff698a987fb]
+	(No symbol) [0x0x7ff698a70153]
+	(No symbol) [0x0x7ff698a38b02]
+	(No symbol) [0x0x7ff698a398d3]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	GetHandleVerifier [0x0x7ff698c7af64+117236]
+	GetHandleVerifier [0x0x7ff698c7b119+117673]
+	GetHandleVerifier [0x0x7ff698c610a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:09:55,782 - ERROR - Internal Server Error: /run/
+2025-10-05 00:10:06,237 - ERROR - policia - Input no encontrado o error al escribir: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f02fa]
+	(No symbol) [0x0x7ff698a47cd7]
+	(No symbol) [0x0x7ff698a47f9c]
+	(No symbol) [0x0x7ff698a9ba87]
+	(No symbol) [0x0x7ff698a703bf]
+	(No symbol) [0x0x7ff698a987fb]
+	(No symbol) [0x0x7ff698a70153]
+	(No symbol) [0x0x7ff698a38b02]
+	(No symbol) [0x0x7ff698a398d3]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	GetHandleVerifier [0x0x7ff698c7af64+117236]
+	GetHandleVerifier [0x0x7ff698c7b119+117673]
+	GetHandleVerifier [0x0x7ff698c610a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:10:06,237 - ERROR - policia - Error general: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f02fa]
+	(No symbol) [0x0x7ff698a47cd7]
+	(No symbol) [0x0x7ff698a47f9c]
+	(No symbol) [0x0x7ff698a9ba87]
+	(No symbol) [0x0x7ff698a703bf]
+	(No symbol) [0x0x7ff698a987fb]
+	(No symbol) [0x0x7ff698a70153]
+	(No symbol) [0x0x7ff698a38b02]
+	(No symbol) [0x0x7ff698a398d3]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	GetHandleVerifier [0x0x7ff698c7af64+117236]
+	GetHandleVerifier [0x0x7ff698c7b119+117673]
+	GetHandleVerifier [0x0x7ff698c610a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:20:51,387 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:21:41,108 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:27:31,440 - ERROR - contaduria - Error general en intento 1: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f011c]
+	(No symbol) [0x0x7ff698a37c1d]
+	(No symbol) [0x0x7ff698a70242]
+	(No symbol) [0x0x7ff698a6ac14]
+	(No symbol) [0x0x7ff698a69cca]
+	(No symbol) [0x0x7ff6989ba755]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	(No symbol) [0x0x7ff6989b9731]
+	GetHandleVerifier [0x0x7ff69905b568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:27:31,444 - ERROR - contaduria - Error general en intento 2: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f011c]
+	(No symbol) [0x0x7ff698a37c1d]
+	(No symbol) [0x0x7ff698a70242]
+	(No symbol) [0x0x7ff698a6ac14]
+	(No symbol) [0x0x7ff698a69cca]
+	(No symbol) [0x0x7ff6989ba755]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	(No symbol) [0x0x7ff6989b9731]
+	GetHandleVerifier [0x0x7ff69905b568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:27:31,446 - ERROR - contaduria - Error general en intento 3: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f011c]
+	(No symbol) [0x0x7ff698a37c1d]
+	(No symbol) [0x0x7ff698a70242]
+	(No symbol) [0x0x7ff698a6ac14]
+	(No symbol) [0x0x7ff698a69cca]
+	(No symbol) [0x0x7ff6989ba755]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	(No symbol) [0x0x7ff6989b9731]
+	GetHandleVerifier [0x0x7ff69905b568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:27:31,447 - ERROR - contaduria - No se pudo obtener la captura final después de 3 intentos.
+2025-10-05 00:28:26,977 - ERROR - rues - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f02fa]
+	(No symbol) [0x0x7ff6989ed001]
+	(No symbol) [0x0x7ff6989dda49]
+	(No symbol) [0x0x7ff6989df821]
+	(No symbol) [0x0x7ff6989ddd66]
+	(No symbol) [0x0x7ff6989dd7b7]
+	(No symbol) [0x0x7ff6989dd47b]
+	(No symbol) [0x0x7ff6989dafec]
+	(No symbol) [0x0x7ff6989db87c]
+	(No symbol) [0x0x7ff6989f43ca]
+	(No symbol) [0x0x7ff698a995de]
+	(No symbol) [0x0x7ff698a7037a]
+	(No symbol) [0x0x7ff698a987fb]
+	(No symbol) [0x0x7ff698a70153]
+	(No symbol) [0x0x7ff698a38b02]
+	(No symbol) [0x0x7ff698a398d3]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	GetHandleVerifier [0x0x7ff698c7af64+117236]
+	GetHandleVerifier [0x0x7ff698c7b119+117673]
+	GetHandleVerifier [0x0x7ff698c610a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:29:02,217 - ERROR - policia - Input no encontrado o error al escribir: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f02fa]
+	(No symbol) [0x0x7ff6989c82a1]
+	(No symbol) [0x0x7ff698a7799e]
+	(No symbol) [0x0x7ff698a98132]
+	(No symbol) [0x0x7ff698a70153]
+	(No symbol) [0x0x7ff698a38b02]
+	(No symbol) [0x0x7ff698a398d3]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	GetHandleVerifier [0x0x7ff698c7af64+117236]
+	GetHandleVerifier [0x0x7ff698c7b119+117673]
+	GetHandleVerifier [0x0x7ff698c610a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:29:02,217 - ERROR - policia - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff698c71eb5+80197]
+	GetHandleVerifier [0x0x7ff698c71f10+80288]
+	(No symbol) [0x0x7ff6989f02fa]
+	(No symbol) [0x0x7ff6989c82a1]
+	(No symbol) [0x0x7ff698a7799e]
+	(No symbol) [0x0x7ff698a98132]
+	(No symbol) [0x0x7ff698a70153]
+	(No symbol) [0x0x7ff698a38b02]
+	(No symbol) [0x0x7ff698a398d3]
+	GetHandleVerifier [0x0x7ff698f2e83d+2949837]
+	GetHandleVerifier [0x0x7ff698f28c6a+2926330]
+	GetHandleVerifier [0x0x7ff698f486c7+3055959]
+	GetHandleVerifier [0x0x7ff698c8cfee+191102]
+	GetHandleVerifier [0x0x7ff698c950af+224063]
+	GetHandleVerifier [0x0x7ff698c7af64+117236]
+	GetHandleVerifier [0x0x7ff698c7b119+117673]
+	GetHandleVerifier [0x0x7ff698c610a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 00:30:42,550 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:33:13,548 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:34:37,935 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:38:48,836 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:39:36,999 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:39:43,171 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:40:19,960 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:43:17,314 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 00:45:43,227 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.

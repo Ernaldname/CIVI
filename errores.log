@@ -7311,3 +7311,332 @@ Stacktrace:
 2025-10-05 00:40:19,960 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
 2025-10-05 00:43:17,314 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
 2025-10-05 00:45:43,227 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 07:49:15,806 - ERROR - Internal Server Error: /run/
+2025-10-05 07:50:01,749 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 07:52:45,341 - ERROR - Internal Server Error: /run/
+2025-10-05 08:07:43,774 - ERROR - Internal Server Error: /run/
+2025-10-05 08:07:54,233 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:09:16,993 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:10:31,899 - ERROR - rues - Error general: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf502fa]
+	(No symbol) [0x0x7ff7dcf3c0a5]
+	(No symbol) [0x0x7ff7dcf6144a]
+	(No symbol) [0x0x7ff7dcfd7be6]
+	(No symbol) [0x0x7ff7dcff8132]
+	(No symbol) [0x0x7ff7dcfd0153]
+	(No symbol) [0x0x7ff7dcf98b02]
+	(No symbol) [0x0x7ff7dcf998d3]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	GetHandleVerifier [0x0x7ff7dd1daf64+117236]
+	GetHandleVerifier [0x0x7ff7dd1db119+117673]
+	GetHandleVerifier [0x0x7ff7dd1c10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:10:32,203 - ERROR - ofac - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf5011c]
+	(No symbol) [0x0x7ff7dcf97c1d]
+	(No symbol) [0x0x7ff7dcfd0242]
+	(No symbol) [0x0x7ff7dcfcac14]
+	(No symbol) [0x0x7ff7dcfc9cca]
+	(No symbol) [0x0x7ff7dcf1a755]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	(No symbol) [0x0x7ff7dcf19731]
+	GetHandleVerifier [0x0x7ff7dd5bb568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:10:32,206 - ERROR - policia - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf5011c]
+	(No symbol) [0x0x7ff7dcf97c1d]
+	(No symbol) [0x0x7ff7dcfd0242]
+	(No symbol) [0x0x7ff7dcfcac14]
+	(No symbol) [0x0x7ff7dcfc9cca]
+	(No symbol) [0x0x7ff7dcf1a755]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	(No symbol) [0x0x7ff7dcf19731]
+	GetHandleVerifier [0x0x7ff7dd5bb568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:10:32,210 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf5011c]
+	(No symbol) [0x0x7ff7dcf97c1d]
+	(No symbol) [0x0x7ff7dcfd0242]
+	(No symbol) [0x0x7ff7dcfcac14]
+	(No symbol) [0x0x7ff7dcfc9cca]
+	(No symbol) [0x0x7ff7dcf1a755]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	(No symbol) [0x0x7ff7dcf19731]
+	GetHandleVerifier [0x0x7ff7dd5bb568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:14:40,360 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:15:48,880 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:18:31,135 - ERROR - policia - Error al escribir input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf502fa]
+	(No symbol) [0x0x7ff7dcfa7cd7]
+	(No symbol) [0x0x7ff7dcfa7f9c]
+	(No symbol) [0x0x7ff7dcffba87]
+	(No symbol) [0x0x7ff7dcfd03bf]
+	(No symbol) [0x0x7ff7dcff87fb]
+	(No symbol) [0x0x7ff7dcfd0153]
+	(No symbol) [0x0x7ff7dcf98b02]
+	(No symbol) [0x0x7ff7dcf998d3]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	GetHandleVerifier [0x0x7ff7dd1daf64+117236]
+	GetHandleVerifier [0x0x7ff7dd1db119+117673]
+	GetHandleVerifier [0x0x7ff7dd1c10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:20:46,691 - ERROR - policia - Error al escribir input: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf5011c]
+	(No symbol) [0x0x7ff7dcf97c1d]
+	(No symbol) [0x0x7ff7dcfd0242]
+	(No symbol) [0x0x7ff7dcfcac14]
+	(No symbol) [0x0x7ff7dcfc9cca]
+	(No symbol) [0x0x7ff7dcf1a755]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	(No symbol) [0x0x7ff7dcf19731]
+	GetHandleVerifier [0x0x7ff7dd5bb568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:20:48,984 - ERROR - Internal Server Error: /run/
+2025-10-05 08:22:17,130 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:22:47,647 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:24:23,186 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:24:53,039 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:24:58,680 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:27:49,234 - ERROR - policia - Error al escribir input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf502fa]
+	(No symbol) [0x0x7ff7dcfa7cd7]
+	(No symbol) [0x0x7ff7dcfa7f9c]
+	(No symbol) [0x0x7ff7dcffba87]
+	(No symbol) [0x0x7ff7dcfd03bf]
+	(No symbol) [0x0x7ff7dcff87fb]
+	(No symbol) [0x0x7ff7dcfd0153]
+	(No symbol) [0x0x7ff7dcf98b02]
+	(No symbol) [0x0x7ff7dcf998d3]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	GetHandleVerifier [0x0x7ff7dd1daf64+117236]
+	GetHandleVerifier [0x0x7ff7dd1db119+117673]
+	GetHandleVerifier [0x0x7ff7dd1c10a8+11064]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:33:11,502 - ERROR - policia - Excedidos los intentos máximos (10)
+2025-10-05 08:47:17,842 - ERROR - contaduria - Error general en intento 1: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf5011c]
+	(No symbol) [0x0x7ff7dcf97c1d]
+	(No symbol) [0x0x7ff7dcfd0242]
+	(No symbol) [0x0x7ff7dcfcac14]
+	(No symbol) [0x0x7ff7dcfc9cca]
+	(No symbol) [0x0x7ff7dcf1a755]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	(No symbol) [0x0x7ff7dcf19731]
+	GetHandleVerifier [0x0x7ff7dd5bb568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:47:17,845 - ERROR - contaduria - Error general en intento 2: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf5011c]
+	(No symbol) [0x0x7ff7dcf97c1d]
+	(No symbol) [0x0x7ff7dcfd0242]
+	(No symbol) [0x0x7ff7dcfcac14]
+	(No symbol) [0x0x7ff7dcfc9cca]
+	(No symbol) [0x0x7ff7dcf1a755]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	(No symbol) [0x0x7ff7dcf19731]
+	GetHandleVerifier [0x0x7ff7dd5bb568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:47:17,848 - ERROR - contaduria - Error general en intento 3: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7dd1d1eb5+80197]
+	GetHandleVerifier [0x0x7ff7dd1d1f10+80288]
+	(No symbol) [0x0x7ff7dcf5011c]
+	(No symbol) [0x0x7ff7dcf97c1d]
+	(No symbol) [0x0x7ff7dcfd0242]
+	(No symbol) [0x0x7ff7dcfcac14]
+	(No symbol) [0x0x7ff7dcfc9cca]
+	(No symbol) [0x0x7ff7dcf1a755]
+	GetHandleVerifier [0x0x7ff7dd48e83d+2949837]
+	GetHandleVerifier [0x0x7ff7dd488c6a+2926330]
+	GetHandleVerifier [0x0x7ff7dd4a86c7+3055959]
+	GetHandleVerifier [0x0x7ff7dd1ecfee+191102]
+	GetHandleVerifier [0x0x7ff7dd1f50af+224063]
+	(No symbol) [0x0x7ff7dcf19731]
+	GetHandleVerifier [0x0x7ff7dd5bb568+4182008]
+	BaseThreadInitThunk [0x0x7ff86df47374+20]
+	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
+
+2025-10-05 08:47:17,848 - ERROR - contaduria - No se pudo obtener la captura final después de 3 intentos.
+2025-10-05 08:47:50,994 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 08:48:21,812 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:31:38,922 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:32:10,591 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:32:19,377 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:32:28,119 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:33:30,288 - ERROR - Internal Server Error: /run/
+2025-10-05 10:39:05,921 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:41:26,583 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:42:01,722 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:42:51,518 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:43:30,377 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:43:49,686 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:44:12,254 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:44:40,250 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:44:48,016 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 10:45:00,079 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:01:20,682 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:04:22,505 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:04:28,631 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:04:34,647 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:06:36,086 - ERROR - Internal Server Error: /run/
+2025-10-05 11:08:48,038 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:09:40,225 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:09:47,802 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:10:06,780 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:12:37,256 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:14:12,069 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:16:57,452 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:22:13,318 - ERROR - Internal Server Error: /run/
+2025-10-05 11:22:23,930 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:22:33,280 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:24:16,676 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:24:42,670 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:26:46,038 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:29:19,097 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:29:30,554 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:45:45,761 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:48:33,152 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:48:42,806 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:49:40,680 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 11:49:51,778 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:22:39,160 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:24:19,161 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:24:29,038 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:29:52,849 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:30:04,507 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:30:25,319 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:30:33,546 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:30:42,484 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:30:48,966 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:30:52,718 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:32:25,912 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:32:33,960 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:34:27,165 - ERROR - Internal Server Error: /run/
+2025-10-05 12:34:33,667 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:35:41,422 - ERROR - Internal Server Error: /run/
+2025-10-05 12:35:46,716 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:38:02,898 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:40:16,818 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:40:26,572 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:40:34,473 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:43:40,100 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:45:56,367 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:46:13,077 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:48:18,192 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:48:25,367 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:48:30,661 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:48:35,589 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:48:57,266 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:51:22,313 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:52:58,397 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:53:28,445 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:54:19,765 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:54:47,386 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:54:50,878 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 12:57:05,327 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-05 13:01:33,671 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:20:58,377 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:21:12,764 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:23:38,673 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:25:36,407 - ERROR - Internal Server Error: /run/
+2025-10-06 10:25:54,003 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:30:19,032 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:31:12,994 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:34:14,176 - ERROR - Internal Server Error: /run/
+2025-10-06 10:36:05,175 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:36:26,784 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:39:08,563 - ERROR - Internal Server Error: /run/
+2025-10-06 10:40:15,337 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:41:29,713 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:41:34,935 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:44:24,058 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:44:49,273 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:45:01,870 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:49:17,320 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:50:05,942 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 10:54:25,031 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 11:01:07,363 - ERROR - Internal Server Error: /run/
+2025-10-06 11:01:13,410 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.

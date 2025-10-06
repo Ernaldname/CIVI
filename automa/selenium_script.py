@@ -31,7 +31,7 @@ NUMERO_DOCUMENTO = None
 # 🔧 Funciones utilitarias
 # -----------------------------
 def tomar_captura(driver, pagina, evento="inicio"):
-    """Guarda captura de pantalla en la carpeta /media/descargas."""
+    """Guarda una captura de pantalla en la carpeta /media/descargas."""
     nombre_archivo = f"{pagina}_{evento}.png"
     ruta_absoluta = os.path.join(DOWNLOAD_PATH, nombre_archivo)
     driver.save_screenshot(ruta_absoluta)
@@ -81,13 +81,18 @@ def manejar_iframe(driver, config, pagina):
 
 
 def ejecutar_evento_extra(driver, pagina, evento, index):
-    """Ejecuta eventos adicionales como clics, scrolls o zoom."""
+    """Ejecuta eventos adicionales como clics, scrolls, zoom o escritura."""
     tipo = evento["tipo"]
     try:
         if tipo == "scroll":
             driver.execute_script(f"window.scrollBy(0, {evento['valor']});")
+
         elif tipo == "zoom":
             driver.execute_script(f"document.body.style.zoom = '{evento['valor']}';")
+
+        elif tipo == "retraso":
+            time.sleep(evento['valor'])
+
         elif tipo == "espera_y_click":
             contenedor = esperar_elemento(driver, By.CSS_SELECTOR, evento.get("contenedor", "body"))
             WebDriverWait(driver, 10).until(
@@ -97,13 +102,44 @@ def ejecutar_evento_extra(driver, pagina, evento, index):
             driver.execute_script("arguments[0].scrollIntoView(true);", elemento)
             WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, evento["selector"])))
             elemento.click()
+
         elif tipo == "click":
             esperar_clickable(driver, evento["selector"]).click()
+
+        elif tipo == "click_recaptcha":
+            print("🔍 Buscando iframe del reCAPTCHA...")
+            iframe = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "iframe[title='reCAPTCHA']"))
+            )
+            driver.switch_to.frame(iframe)
+            print("✅ Entrando al iframe del reCAPTCHA")
+
+            checkbox = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "#recaptcha-anchor > div.recaptcha-checkbox-border"))
+            )
+            driver.execute_script("arguments[0].click();", checkbox)
+            print("✅ Click realizado sobre reCAPTCHA")
+
+            driver.switch_to.default_content()
+
         elif tipo == "teclado":
             input_el = esperar_elemento(driver, By.CSS_SELECTOR, evento["selector"])
             input_el.send_keys(evento["tecla"])
+
+        elif tipo == "escribir":
+            input_el = esperar_elemento(driver, By.CSS_SELECTOR, evento["selector"])
+            input_el.clear()
+            texto = evento["texto"].replace("{DOC}", str(NUMERO_DOCUMENTO))
+            input_el.send_keys(texto)
+
+        elif tipo == "captura":
+            descripcion = evento.get("descripcion", f"evento_{index}")
+            tomar_captura(driver, pagina, descripcion)
+
         time.sleep(1)
-        tomar_captura(driver, pagina, f"evento_{index}")
+        if tipo != "captura":
+            tomar_captura(driver, pagina, f"evento_{index}")
+
     except Exception as e:
         logging.warning(f"{pagina} - Evento {index} ({tipo}) no ejecutado: {e}")
 
@@ -121,30 +157,19 @@ def mensaje_captcha_presente(driver):
 
 def procesar_input(driver, config, pagina):
     """Escribe el documento en el campo configurado y maneja TAB/ENTER."""
+    if not config.get("input_selector"):
+        return
+
     metodo = By.XPATH if config["input_selector"].startswith("//") else By.CSS_SELECTOR
     try:
         input_box = esperar_elemento(driver, metodo, config["input_selector"])
         input_box.clear()
         input_box.send_keys(str(NUMERO_DOCUMENTO))
-
         tomar_captura(driver, pagina, "despues_input")
 
-        for i, tecla in enumerate(config["eventos_teclado"]):
-            if tecla == Keys.TAB:
-                input_box.send_keys(Keys.TAB)
-                time.sleep(1)
-                try:
-                    focused = driver.switch_to.active_element
-                    focused.click()
-                    print("🖱️ Clic realizado en el elemento enfocado por TAB.")
-                except Exception as e:
-                    logging.warning(f"{pagina} - No se pudo hacer clic tras TAB: {e}")
-            else:
-                if tecla == Keys.ENTER:
-                    print("⏳ Esperando antes de enviar ENTER...")
-                    time.sleep(2)
-                input_box.send_keys(tecla)
-                time.sleep(1)
+        for tecla in config.get("eventos_teclado", []):
+            input_box.send_keys(tecla)
+            time.sleep(1)
 
     except Exception as e:
         logging.error(f"{pagina} - Error al escribir input: {e}")
@@ -169,70 +194,94 @@ def manejar_descarga(pagina, timeout=30):
     logging.warning(f"{pagina} - Tiempo agotado sin descargas")
     return None
 
+
 # -----------------------------
 # 🌐 Procesamiento principal
 # -----------------------------
 def procesar_pagina(driver, pagina, config):
     print(f"\n📌 Procesando: {pagina}")
+    driver.get(config["url"])
+    aceptar_alerta_si_existe(driver, pagina)
+    manejar_iframe(driver, config, pagina)
 
-    if pagina == "policia":
-        intentos = 0
-        max_intentos = 10
-
-        while intentos < max_intentos:
-            driver.get(config["url"])
-            aceptar_alerta_si_existe(driver, pagina)
-            manejar_iframe(driver, config, pagina)
-
-            for i, evento in enumerate(config.get("extra_eventos", []), start=1):
-                ejecutar_evento_extra(driver, pagina, evento, i)
-
-            try:
-                esperar_elemento(driver, By.CSS_SELECTOR, config["input_selector"], timeout=3)
-                procesar_input(driver, config, pagina)
-                time.sleep(config.get("espera_post_input", 1))
-                if not mensaje_captcha_presente(driver):
-                    print("✅ Documento procesado correctamente.")
-                    break
-                else:
-                    print("❌ Captcha no resuelto. Reintentando...")
-                    tomar_captura(driver, pagina, f"captcha_error_{intentos}")
-            except Exception as e:
-                print(f"⚠️ Error al procesar intento {intentos}: {e}")
-
-            intentos += 1
-            driver.refresh()
-            time.sleep(2)
-
-        if intentos == max_intentos:
-            logging.error(f"{pagina} - Excedidos los intentos máximos ({max_intentos})")
+    try:
+        procesar_input(driver, config, pagina)
+        for i, evento in enumerate(config.get("extra_eventos", []), start=1):
+            ejecutar_evento_extra(driver, pagina, evento, i)
+    except Exception as e:
+        logging.error(f"{pagina} - Error general: {e}")
 
     if config.get("descargar"):
         manejar_descarga(pagina)
     if config.get("captura_pantalla"):
         tomar_captura(driver, pagina, "final")
+    if config.get("retraso"):
+        print(f"⏳ Esperando {config['retraso']} segundos antes de continuar...")
+        time.sleep(config["retraso"])
 
+    driver.switch_to.default_content()
     print(f"🔹 Finalizado: {pagina}")
+
 
 # -----------------------------
 # 🌍 Configuración de páginas
 # -----------------------------
-paginas = {
-
-    "policia": {
-        "url": "https://antecedentes.policia.gov.co:7005/WebJudicial/",
+paginas = { 
+    "rues": {
+        "url": "https://www.rues.org.co",
         "iframe_tag": None,
-        "input_selector": "#cedulaInput",
-        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
         "extra_eventos": [
-            {"tipo": "espera_y_click", "contenedor": "#aceptaOption > tbody", "selector": "#aceptaOption\\:0"},
-            {"tipo": "espera_y_click", "selector": "#continuarBtn"},
-            {"tipo": "espera_y_click", "selector": "#j_idt17 > span"}
+            {"tipo": "zoom", "valor": 0.75},
+
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "despues_cerrar_popup"},
+
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "captura", "descripcion": "resultado_click"},
+
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "captura", "descripcion": "pestana_economica"},
+
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "captura", "descripcion": "pestana_representante"},
+
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "captura", "descripcion": "pestana_establecimientos"},
+
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
         ],
-        "espera_post_input": 10,
+        "descargar": True,
+        "captura_pantalla": True
+    },
+
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "iframe_tag": None,
+        "input_selector": "#ctl00_MainContent_txtLastName",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
         "descargar": False,
         "captura_pantalla": True
     },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True,
+        "captura_pantalla": False
+    },
+
     "contaduria": {
         "url": "https://eris.contaduria.gov.co/BDME/",
         "iframe_tag": None,
@@ -253,49 +302,14 @@ paginas = {
             {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
             {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
             {"tipo": "teclado", "selector": "body", "tecla": Keys.TAB},
-            {"tipo": "teclado", "selector": "body", "tecla": Keys.SPACE},
+            {"tipo": "click_recaptcha"},
             {"tipo": "retraso", "valor": 10}
-             ],
-            "descargar": False,
-            "captura_pantalla": True
-            },
-
-    "contraloria": {
-        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
-        "iframe_tag": "iframe",
-        "input_selector": "//input[@type='text']",
-        "eventos_teclado": [Keys.TAB, Keys.ENTER],
-        "descargar": True,
-        "captura_pantalla": False
-    },
-
-    "rues": {
-        "url": "https://www.rues.org.co",
-        "iframe_tag": None,
-        "input_selector": "#search",
-        "eventos_teclado": [Keys.ENTER],
-        "extra_eventos": [
-            {"tipo": "zoom", "valor": 0.75},
-            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
-            {"tipo": "scroll", "valor": 200}
-        ],
-        "descargar": True,
-        "captura_pantalla": True
-    },
-
-    "ofac": {
-        "url": "https://sanctionssearch.ofac.treas.gov/",
-        "iframe_tag": None,
-        "input_selector": "#ctl00_MainContent_txtLastName",
-        "eventos_teclado": [Keys.ENTER],
-        "extra_eventos": [
-            {"tipo": "zoom", "valor": 0.7},
-            {"tipo": "scroll", "valor": 30}
         ],
         "descargar": False,
         "captura_pantalla": True
-        }
+    },
 }
+
 
 # -----------------------------
 # 🚀 Punto de entrada

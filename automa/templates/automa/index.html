@@ -17,11 +17,11 @@
         Tu navegador no soporta el video de fondo.
     </video>
 
-    <h1 class="titulo animado">CONSULTOR DE ENTES DEL ESTADO</h1>
+    <h1 class="titulo animado"> CENTRO INTEGRAL DE VALIDACION DE IDENTIDAD </h1>
 
     <div class="contenedor-central">
         <fieldset class="ajustado">
-            <legend>BUSCAR INFORMACIÓN PERSONA NATURAL Y EMPRESA</legend>
+            <legend> INGRESE DATOS DE SU CONSULTA </legend>
 
             <div style="text-align:center;"> 
                 <label for="tipo_de_documento">TIPO DE DOCUMENTO:</label>
@@ -41,6 +41,10 @@
                 <br><br>
 
                 <button class="boton-animado" onclick="buscarPN()">Enviar</button>
+                <br><br>
+                
+                <a href="{% url 'listar_archivos' %}">
+                    <button type="button" class="boton-animado">📂 Ver Descargas</button>
             </div>
         </fieldset>
     </div>

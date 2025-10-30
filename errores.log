@@ -7883,3 +7883,2659 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ff86df47374+20]
 	RtlUserThreadStart [0x0x7ff86ec9cc91+33]
 
+2025-10-06 15:29:37,929 - ERROR - rues - Error general: HTTPConnectionPool(host='localhost', port=50358): Read timed out. (read timeout=120)
+2025-10-06 15:31:37,943 - ERROR - ofac - Error general: HTTPConnectionPool(host='localhost', port=50358): Read timed out. (read timeout=120)
+2025-10-06 15:34:51,235 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 15:41:37,804 - WARNING - Not Found: /\xe7
+2025-10-06 15:41:38,039 - WARNING - Not Found: /favicon.ico
+2025-10-06 15:49:02,788 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:00:02,724 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:00:14,184 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:00:22,894 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:00:39,565 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:00:43,491 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:08:31,362 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:08:40,965 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:14:53,155 - ERROR - contraloria - Error general: HTTPConnectionPool(host='localhost', port=52895): Read timed out. (read timeout=120)
+2025-10-06 16:20:23,815 - ERROR - rues - Error general: HTTPConnectionPool(host='localhost', port=53171): Read timed out. (read timeout=120)
+2025-10-06 16:22:57,259 - ERROR - contraloria - Error general: HTTPConnectionPool(host='localhost', port=53171): Read timed out. (read timeout=120)
+2025-10-06 16:28:12,703 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:28:24,441 - ERROR - rues - Error general: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff742291eb5+80197]
+	GetHandleVerifier [0x0x7ff742291f10+80288]
+	(No symbol) [0x0x7ff74201011c]
+	(No symbol) [0x0x7ff741ffd41c]
+	(No symbol) [0x0x7ff741ffc2af]
+	(No symbol) [0x0x7ff74202144a]
+	(No symbol) [0x0x7ff742020746]
+	(No symbol) [0x0x7ff7420b8b67]
+	(No symbol) [0x0x7ff742090153]
+	(No symbol) [0x0x7ff742058b02]
+	(No symbol) [0x0x7ff7420598d3]
+	GetHandleVerifier [0x0x7ff74254e83d+2949837]
+	GetHandleVerifier [0x0x7ff742548c6a+2926330]
+	GetHandleVerifier [0x0x7ff7425686c7+3055959]
+	GetHandleVerifier [0x0x7ff7422acfee+191102]
+	GetHandleVerifier [0x0x7ff7422b50af+224063]
+	GetHandleVerifier [0x0x7ff74229af64+117236]
+	GetHandleVerifier [0x0x7ff74229b119+117673]
+	GetHandleVerifier [0x0x7ff7422810a8+11064]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-06 16:28:24,591 - ERROR - ofac - Error general: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff742291eb5+80197]
+	GetHandleVerifier [0x0x7ff742291f10+80288]
+	(No symbol) [0x0x7ff7420102fa]
+	(No symbol) [0x0x7ff741ffc0a5]
+	(No symbol) [0x0x7ff74202144a]
+	(No symbol) [0x0x7ff742097be6]
+	(No symbol) [0x0x7ff7420b8132]
+	(No symbol) [0x0x7ff742090153]
+	(No symbol) [0x0x7ff742058b02]
+	(No symbol) [0x0x7ff7420598d3]
+	GetHandleVerifier [0x0x7ff74254e83d+2949837]
+	GetHandleVerifier [0x0x7ff742548c6a+2926330]
+	GetHandleVerifier [0x0x7ff7425686c7+3055959]
+	GetHandleVerifier [0x0x7ff7422acfee+191102]
+	GetHandleVerifier [0x0x7ff7422b50af+224063]
+	GetHandleVerifier [0x0x7ff74229af64+117236]
+	GetHandleVerifier [0x0x7ff74229b119+117673]
+	GetHandleVerifier [0x0x7ff7422810a8+11064]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-06 16:28:24,871 - ERROR - contraloria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff742291eb5+80197]
+	GetHandleVerifier [0x0x7ff742291f10+80288]
+	(No symbol) [0x0x7ff74201011c]
+	(No symbol) [0x0x7ff742057c1d]
+	(No symbol) [0x0x7ff742090242]
+	(No symbol) [0x0x7ff74208ac14]
+	(No symbol) [0x0x7ff742089cca]
+	(No symbol) [0x0x7ff741fda755]
+	GetHandleVerifier [0x0x7ff74254e83d+2949837]
+	GetHandleVerifier [0x0x7ff742548c6a+2926330]
+	GetHandleVerifier [0x0x7ff7425686c7+3055959]
+	GetHandleVerifier [0x0x7ff7422acfee+191102]
+	GetHandleVerifier [0x0x7ff7422b50af+224063]
+	(No symbol) [0x0x7ff741fd9731]
+	GetHandleVerifier [0x0x7ff74267b568+4182008]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-06 16:28:24,890 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff742291eb5+80197]
+	GetHandleVerifier [0x0x7ff742291f10+80288]
+	(No symbol) [0x0x7ff74201011c]
+	(No symbol) [0x0x7ff742057c1d]
+	(No symbol) [0x0x7ff742090242]
+	(No symbol) [0x0x7ff74208ac14]
+	(No symbol) [0x0x7ff742089cca]
+	(No symbol) [0x0x7ff741fda755]
+	GetHandleVerifier [0x0x7ff74254e83d+2949837]
+	GetHandleVerifier [0x0x7ff742548c6a+2926330]
+	GetHandleVerifier [0x0x7ff7425686c7+3055959]
+	GetHandleVerifier [0x0x7ff7422acfee+191102]
+	GetHandleVerifier [0x0x7ff7422b50af+224063]
+	(No symbol) [0x0x7ff741fd9731]
+	GetHandleVerifier [0x0x7ff74267b568+4182008]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-06 16:28:37,728 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-06 16:47:09,838 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff742291eb5+80197]
+	GetHandleVerifier [0x0x7ff742291f10+80288]
+	(No symbol) [0x0x7ff74201011c]
+	(No symbol) [0x0x7ff742057c1d]
+	(No symbol) [0x0x7ff742090242]
+	(No symbol) [0x0x7ff74208ac14]
+	(No symbol) [0x0x7ff742089cca]
+	(No symbol) [0x0x7ff741fda755]
+	GetHandleVerifier [0x0x7ff74254e83d+2949837]
+	GetHandleVerifier [0x0x7ff742548c6a+2926330]
+	GetHandleVerifier [0x0x7ff7425686c7+3055959]
+	GetHandleVerifier [0x0x7ff7422acfee+191102]
+	GetHandleVerifier [0x0x7ff7422b50af+224063]
+	(No symbol) [0x0x7ff741fd9731]
+	GetHandleVerifier [0x0x7ff74267b568+4182008]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-07 09:56:56,822 - ERROR - ofac - Error al procesar input: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff770031eb5+80197]
+	GetHandleVerifier [0x0x7ff770031f10+80288]
+	(No symbol) [0x0x7ff76fdb02fa]
+	(No symbol) [0x0x7ff76fd882a1]
+	(No symbol) [0x0x7ff76fe3799e]
+	(No symbol) [0x0x7ff76fe58132]
+	(No symbol) [0x0x7ff76fe30153]
+	(No symbol) [0x0x7ff76fdf8b02]
+	(No symbol) [0x0x7ff76fdf98d3]
+	GetHandleVerifier [0x0x7ff7702ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7702e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7703086c7+3055959]
+	GetHandleVerifier [0x0x7ff77004cfee+191102]
+	GetHandleVerifier [0x0x7ff7700550af+224063]
+	GetHandleVerifier [0x0x7ff77003af64+117236]
+	GetHandleVerifier [0x0x7ff77003b119+117673]
+	GetHandleVerifier [0x0x7ff7700210a8+11064]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-07 09:56:56,874 - ERROR - ofac - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff770031eb5+80197]
+	GetHandleVerifier [0x0x7ff770031f10+80288]
+	(No symbol) [0x0x7ff76fdb02fa]
+	(No symbol) [0x0x7ff76fd882a1]
+	(No symbol) [0x0x7ff76fe3799e]
+	(No symbol) [0x0x7ff76fe58132]
+	(No symbol) [0x0x7ff76fe30153]
+	(No symbol) [0x0x7ff76fdf8b02]
+	(No symbol) [0x0x7ff76fdf98d3]
+	GetHandleVerifier [0x0x7ff7702ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7702e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7703086c7+3055959]
+	GetHandleVerifier [0x0x7ff77004cfee+191102]
+	GetHandleVerifier [0x0x7ff7700550af+224063]
+	GetHandleVerifier [0x0x7ff77003af64+117236]
+	GetHandleVerifier [0x0x7ff77003b119+117673]
+	GetHandleVerifier [0x0x7ff7700210a8+11064]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-07 09:56:57,040 - ERROR - contraloria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff770031eb5+80197]
+	GetHandleVerifier [0x0x7ff770031f10+80288]
+	(No symbol) [0x0x7ff76fdb02fa]
+	(No symbol) [0x0x7ff76fd882a1]
+	(No symbol) [0x0x7ff76fe3799e]
+	(No symbol) [0x0x7ff76fe58132]
+	(No symbol) [0x0x7ff76fe30153]
+	(No symbol) [0x0x7ff76fdf8b02]
+	(No symbol) [0x0x7ff76fdf98d3]
+	GetHandleVerifier [0x0x7ff7702ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7702e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7703086c7+3055959]
+	GetHandleVerifier [0x0x7ff77004cfee+191102]
+	GetHandleVerifier [0x0x7ff7700550af+224063]
+	GetHandleVerifier [0x0x7ff77003af64+117236]
+	GetHandleVerifier [0x0x7ff77003b119+117673]
+	GetHandleVerifier [0x0x7ff7700210a8+11064]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-07 09:56:57,046 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff770031eb5+80197]
+	GetHandleVerifier [0x0x7ff770031f10+80288]
+	(No symbol) [0x0x7ff76fdb02fa]
+	(No symbol) [0x0x7ff76fd882a1]
+	(No symbol) [0x0x7ff76fe3799e]
+	(No symbol) [0x0x7ff76fe58132]
+	(No symbol) [0x0x7ff76fe30153]
+	(No symbol) [0x0x7ff76fdf8b02]
+	(No symbol) [0x0x7ff76fdf98d3]
+	GetHandleVerifier [0x0x7ff7702ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7702e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7703086c7+3055959]
+	GetHandleVerifier [0x0x7ff77004cfee+191102]
+	GetHandleVerifier [0x0x7ff7700550af+224063]
+	GetHandleVerifier [0x0x7ff77003af64+117236]
+	GetHandleVerifier [0x0x7ff77003b119+117673]
+	GetHandleVerifier [0x0x7ff7700210a8+11064]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-07 09:57:26,409 - ERROR - rues - Error general: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff770031eb5+80197]
+	GetHandleVerifier [0x0x7ff770031f10+80288]
+	(No symbol) [0x0x7ff76fdb02fa]
+	(No symbol) [0x0x7ff76fd9c0a5]
+	(No symbol) [0x0x7ff76fdc144a]
+	(No symbol) [0x0x7ff76fe37be6]
+	(No symbol) [0x0x7ff76fe58132]
+	(No symbol) [0x0x7ff76fe30153]
+	(No symbol) [0x0x7ff76fdf8b02]
+	(No symbol) [0x0x7ff76fdf98d3]
+	GetHandleVerifier [0x0x7ff7702ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7702e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7703086c7+3055959]
+	GetHandleVerifier [0x0x7ff77004cfee+191102]
+	GetHandleVerifier [0x0x7ff7700550af+224063]
+	GetHandleVerifier [0x0x7ff77003af64+117236]
+	GetHandleVerifier [0x0x7ff77003b119+117673]
+	GetHandleVerifier [0x0x7ff7700210a8+11064]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-07 09:57:26,692 - ERROR - ofac - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff770031eb5+80197]
+	GetHandleVerifier [0x0x7ff770031f10+80288]
+	(No symbol) [0x0x7ff76fdb011c]
+	(No symbol) [0x0x7ff76fdf7c1d]
+	(No symbol) [0x0x7ff76fe30242]
+	(No symbol) [0x0x7ff76fe2ac14]
+	(No symbol) [0x0x7ff76fe29cca]
+	(No symbol) [0x0x7ff76fd7a755]
+	GetHandleVerifier [0x0x7ff7702ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7702e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7703086c7+3055959]
+	GetHandleVerifier [0x0x7ff77004cfee+191102]
+	GetHandleVerifier [0x0x7ff7700550af+224063]
+	(No symbol) [0x0x7ff76fd79731]
+	GetHandleVerifier [0x0x7ff77041b568+4182008]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-07 09:57:26,703 - ERROR - contraloria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff770031eb5+80197]
+	GetHandleVerifier [0x0x7ff770031f10+80288]
+	(No symbol) [0x0x7ff76fdb011c]
+	(No symbol) [0x0x7ff76fdf7c1d]
+	(No symbol) [0x0x7ff76fe30242]
+	(No symbol) [0x0x7ff76fe2ac14]
+	(No symbol) [0x0x7ff76fe29cca]
+	(No symbol) [0x0x7ff76fd7a755]
+	GetHandleVerifier [0x0x7ff7702ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7702e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7703086c7+3055959]
+	GetHandleVerifier [0x0x7ff77004cfee+191102]
+	GetHandleVerifier [0x0x7ff7700550af+224063]
+	(No symbol) [0x0x7ff76fd79731]
+	GetHandleVerifier [0x0x7ff77041b568+4182008]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-07 09:57:26,708 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff770031eb5+80197]
+	GetHandleVerifier [0x0x7ff770031f10+80288]
+	(No symbol) [0x0x7ff76fdb011c]
+	(No symbol) [0x0x7ff76fdf7c1d]
+	(No symbol) [0x0x7ff76fe30242]
+	(No symbol) [0x0x7ff76fe2ac14]
+	(No symbol) [0x0x7ff76fe29cca]
+	(No symbol) [0x0x7ff76fd7a755]
+	GetHandleVerifier [0x0x7ff7702ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7702e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7703086c7+3055959]
+	GetHandleVerifier [0x0x7ff77004cfee+191102]
+	GetHandleVerifier [0x0x7ff7700550af+224063]
+	(No symbol) [0x0x7ff76fd79731]
+	GetHandleVerifier [0x0x7ff77041b568+4182008]
+	BaseThreadInitThunk [0x0x7fffe2307374+20]
+	RtlUserThreadStart [0x0x7fffe391cc91+33]
+
+2025-10-20 18:53:30,175 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:03:22,625 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:07:02,702 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:07:22,023 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:13:36,365 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:16:32,971 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:17:52,525 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:18:01,933 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:18:05,303 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:19:43,447 - ERROR -  
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True
+    },
+
+    contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff763eee9e5+80021]
+	GetHandleVerifier [0x0x7ff763eeea40+80112]
+	(No symbol) [0x0x7ff763c70425]
+	(No symbol) [0x0x7ff763cb864f]
+	(No symbol) [0x0x7ff763cf10f2]
+	(No symbol) [0x0x7ff763ceb89f]
+	(No symbol) [0x0x7ff763cea94a]
+	(No symbol) [0x0x7ff763c3a765]
+	GetHandleVerifier [0x0x7ff7641add8d+2960445]
+	GetHandleVerifier [0x0x7ff7641a804a+2936570]
+	GetHandleVerifier [0x0x7ff7641c8a87+3070263]
+	GetHandleVerifier [0x0x7ff763f084ce+185214]
+	GetHandleVerifier [0x0x7ff763f0ff1f+216527]
+	(No symbol) [0x0x7ff763c3970e]
+	GetHandleVerifier [0x0x7ff7642e6b78+4241960]
+	BaseThreadInitThunk [0x0x7fffcd917374+20]
+	RtlUserThreadStart [0x0x7fffce73cc91+33]
+
+2025-10-20 19:22:52,777 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:23:06,309 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:23:30,479 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:23:52,801 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:23:58,599 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:38:25,037 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-20 19:41:26,595 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:16:58,719 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:18:27,993 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:19:09,353 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:19:45,924 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:20:23,073 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:20:33,544 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:21:07,367 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:21:55,653 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:26:19,605 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:28:08,941 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:28:29,028 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:30:27,867 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-21 09:30:38,470 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-22 14:12:18,358 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-22 14:17:16,315 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-22 14:17:27,436 - ERROR -  
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True
+    },
+
+    contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7079ae9e5+80021]
+	GetHandleVerifier [0x0x7ff7079aea40+80112]
+	(No symbol) [0x0x7ff70773060f]
+	(No symbol) [0x0x7ff70772d0bf]
+	(No symbol) [0x0x7ff70771dae9]
+	(No symbol) [0x0x7ff70771f94e]
+	(No symbol) [0x0x7ff70771e0d2]
+	(No symbol) [0x0x7ff70771d859]
+	(No symbol) [0x0x7ff70771d51d]
+	(No symbol) [0x0x7ff70771b08c]
+	(No symbol) [0x0x7ff70771b91c]
+	(No symbol) [0x0x7ff7077346da]
+	(No symbol) [0x0x7ff7077da47e]
+	(No symbol) [0x0x7ff7077b122a]
+	(No symbol) [0x0x7ff7077d968a]
+	(No symbol) [0x0x7ff7077b1003]
+	(No symbol) [0x0x7ff7077795d1]
+	(No symbol) [0x0x7ff70777a3f3]
+	GetHandleVerifier [0x0x7ff707c6dd8d+2960445]
+	GetHandleVerifier [0x0x7ff707c6804a+2936570]
+	GetHandleVerifier [0x0x7ff707c88a87+3070263]
+	GetHandleVerifier [0x0x7ff7079c84ce+185214]
+	GetHandleVerifier [0x0x7ff7079cff1f+216527]
+	GetHandleVerifier [0x0x7ff7079b7c24+117460]
+	GetHandleVerifier [0x0x7ff7079b7ddf+117903]
+	GetHandleVerifier [0x0x7ff70799dcb8+11112]
+	BaseThreadInitThunk [0x0x7fffcd917374+20]
+	RtlUserThreadStart [0x0x7fffce73cc91+33]
+
+2025-10-22 14:18:02,875 - ERROR -  
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True
+    },
+
+    contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7079ae9e5+80021]
+	GetHandleVerifier [0x0x7ff7079aea40+80112]
+	(No symbol) [0x0x7ff70773060f]
+	(No symbol) [0x0x7ff70772d0bf]
+	(No symbol) [0x0x7ff70771dae9]
+	(No symbol) [0x0x7ff70771f94e]
+	(No symbol) [0x0x7ff70771e0d2]
+	(No symbol) [0x0x7ff70771d859]
+	(No symbol) [0x0x7ff70771d51d]
+	(No symbol) [0x0x7ff70771b08c]
+	(No symbol) [0x0x7ff70771b91c]
+	(No symbol) [0x0x7ff7077346da]
+	(No symbol) [0x0x7ff7077da47e]
+	(No symbol) [0x0x7ff7077b122a]
+	(No symbol) [0x0x7ff7077d968a]
+	(No symbol) [0x0x7ff7077b1003]
+	(No symbol) [0x0x7ff7077795d1]
+	(No symbol) [0x0x7ff70777a3f3]
+	GetHandleVerifier [0x0x7ff707c6dd8d+2960445]
+	GetHandleVerifier [0x0x7ff707c6804a+2936570]
+	GetHandleVerifier [0x0x7ff707c88a87+3070263]
+	GetHandleVerifier [0x0x7ff7079c84ce+185214]
+	GetHandleVerifier [0x0x7ff7079cff1f+216527]
+	GetHandleVerifier [0x0x7ff7079b7c24+117460]
+	GetHandleVerifier [0x0x7ff7079b7ddf+117903]
+	GetHandleVerifier [0x0x7ff70799dcb8+11112]
+	BaseThreadInitThunk [0x0x7fffcd917374+20]
+	RtlUserThreadStart [0x0x7fffce73cc91+33]
+
+2025-10-22 14:18:34,287 - ERROR -  
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True
+    },
+
+    contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7079ae9e5+80021]
+	GetHandleVerifier [0x0x7ff7079aea40+80112]
+	(No symbol) [0x0x7ff70773060f]
+	(No symbol) [0x0x7ff70772d0bf]
+	(No symbol) [0x0x7ff70771dae9]
+	(No symbol) [0x0x7ff70771f94e]
+	(No symbol) [0x0x7ff70771e0d2]
+	(No symbol) [0x0x7ff70771d859]
+	(No symbol) [0x0x7ff70771d51d]
+	(No symbol) [0x0x7ff70771b08c]
+	(No symbol) [0x0x7ff70771b91c]
+	(No symbol) [0x0x7ff7077346da]
+	(No symbol) [0x0x7ff7077da47e]
+	(No symbol) [0x0x7ff7077b122a]
+	(No symbol) [0x0x7ff7077d968a]
+	(No symbol) [0x0x7ff7077b1003]
+	(No symbol) [0x0x7ff7077795d1]
+	(No symbol) [0x0x7ff70777a3f3]
+	GetHandleVerifier [0x0x7ff707c6dd8d+2960445]
+	GetHandleVerifier [0x0x7ff707c6804a+2936570]
+	GetHandleVerifier [0x0x7ff707c88a87+3070263]
+	GetHandleVerifier [0x0x7ff7079c84ce+185214]
+	GetHandleVerifier [0x0x7ff7079cff1f+216527]
+	GetHandleVerifier [0x0x7ff7079b7c24+117460]
+	GetHandleVerifier [0x0x7ff7079b7ddf+117903]
+	GetHandleVerifier [0x0x7ff70799dcb8+11112]
+	BaseThreadInitThunk [0x0x7fffcd917374+20]
+	RtlUserThreadStart [0x0x7fffce73cc91+33]
+
+2025-10-22 14:37:25,125 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-22 14:41:30,788 - ERROR -  
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True
+    },
+
+    contaduria - Error general: HTTPConnectionPool(host='localhost', port=53889): Read timed out. (read timeout=120)
+2025-10-24 09:03:15,476 - ERROR -  
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True
+    },
+
+    contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff75966e8e5+80021]
+	GetHandleVerifier [0x0x7ff75966e940+80112]
+	(No symbol) [0x0x7ff7593f060f]
+	(No symbol) [0x0x7ff7593c82f1]
+	(No symbol) [0x0x7ff7594788be]
+	(No symbol) [0x0x7ff759498fa2]
+	(No symbol) [0x0x7ff759471003]
+	(No symbol) [0x0x7ff7594395d1]
+	(No symbol) [0x0x7ff75943a3f3]
+	GetHandleVerifier [0x0x7ff75992dc7d+2960429]
+	GetHandleVerifier [0x0x7ff759927f3a+2936554]
+	GetHandleVerifier [0x0x7ff759948977+3070247]
+	GetHandleVerifier [0x0x7ff7596883ce+185214]
+	GetHandleVerifier [0x0x7ff75968fe1f+216527]
+	GetHandleVerifier [0x0x7ff759677b24+117460]
+	GetHandleVerifier [0x0x7ff759677cdf+117903]
+	GetHandleVerifier [0x0x7ff75965dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-24 09:03:51,196 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:06:04,131 - ERROR -  
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True
+    },
+
+    contaduria - Error general: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff75966e8e5+80021]
+	GetHandleVerifier [0x0x7ff75966e940+80112]
+	(No symbol) [0x0x7ff7593f060f]
+	(No symbol) [0x0x7ff7593dc145]
+	(No symbol) [0x0x7ff75940177a]
+	(No symbol) [0x0x7ff759478b06]
+	(No symbol) [0x0x7ff759498fa2]
+	(No symbol) [0x0x7ff759471003]
+	(No symbol) [0x0x7ff7594395d1]
+	(No symbol) [0x0x7ff75943a3f3]
+	GetHandleVerifier [0x0x7ff75992dc7d+2960429]
+	GetHandleVerifier [0x0x7ff759927f3a+2936554]
+	GetHandleVerifier [0x0x7ff759948977+3070247]
+	GetHandleVerifier [0x0x7ff7596883ce+185214]
+	GetHandleVerifier [0x0x7ff75968fe1f+216527]
+	GetHandleVerifier [0x0x7ff759677b24+117460]
+	GetHandleVerifier [0x0x7ff759677cdf+117903]
+	GetHandleVerifier [0x0x7ff75965dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-24 09:06:19,036 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:08:37,131 - ERROR -  
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True
+    },
+
+    contaduria - Error general: HTTPConnectionPool(host='localhost', port=62093): Read timed out. (read timeout=120)
+2025-10-24 09:13:29,697 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:16:14,303 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:16:22,833 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:18:55,957 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:26:22,345 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:28:20,855 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:32:08,641 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:32:30,919 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:32:46,523 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:34:37,758 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:52:18,058 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:53:36,070 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:53:47,568 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:54:06,924 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 09:58:50,978 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:01:23,149 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:01:41,856 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:05:13,357 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff75966e8e5+80021]
+	GetHandleVerifier [0x0x7ff75966e940+80112]
+	(No symbol) [0x0x7ff7593f0425]
+	(No symbol) [0x0x7ff75943864f]
+	(No symbol) [0x0x7ff7594710f2]
+	(No symbol) [0x0x7ff75946b89f]
+	(No symbol) [0x0x7ff75946a94a]
+	(No symbol) [0x0x7ff7593ba765]
+	GetHandleVerifier [0x0x7ff75992dc7d+2960429]
+	GetHandleVerifier [0x0x7ff759927f3a+2936554]
+	GetHandleVerifier [0x0x7ff759948977+3070247]
+	GetHandleVerifier [0x0x7ff7596883ce+185214]
+	GetHandleVerifier [0x0x7ff75968fe1f+216527]
+	(No symbol) [0x0x7ff7593b970e]
+	GetHandleVerifier [0x0x7ff759a66a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-24 10:42:13,790 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:48:04,018 - ERROR - contaduria - Error general: HTTPConnectionPool(host='localhost', port=49294): Read timed out. (read timeout=120)
+2025-10-24 10:55:37,713 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:55:54,308 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:57:53,639 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:58:31,287 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff75966e8e5+80021]
+	GetHandleVerifier [0x0x7ff75966e940+80112]
+	(No symbol) [0x0x7ff7593f060f]
+	(No symbol) [0x0x7ff7593c82f1]
+	(No symbol) [0x0x7ff7594788be]
+	(No symbol) [0x0x7ff759498fa2]
+	(No symbol) [0x0x7ff759471003]
+	(No symbol) [0x0x7ff7594395d1]
+	(No symbol) [0x0x7ff75943a3f3]
+	GetHandleVerifier [0x0x7ff75992dc7d+2960429]
+	GetHandleVerifier [0x0x7ff759927f3a+2936554]
+	GetHandleVerifier [0x0x7ff759948977+3070247]
+	GetHandleVerifier [0x0x7ff7596883ce+185214]
+	GetHandleVerifier [0x0x7ff75968fe1f+216527]
+	GetHandleVerifier [0x0x7ff759677b24+117460]
+	GetHandleVerifier [0x0x7ff759677cdf+117903]
+	GetHandleVerifier [0x0x7ff75965dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-24 10:58:52,564 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:59:03,364 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 10:59:19,376 - ERROR - contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff75966e8e5+80021]
+	GetHandleVerifier [0x0x7ff75966e940+80112]
+	(No symbol) [0x0x7ff7593f060f]
+	(No symbol) [0x0x7ff7593ed0bf]
+	(No symbol) [0x0x7ff7593ddae9]
+	(No symbol) [0x0x7ff7593df94e]
+	(No symbol) [0x0x7ff7593de0d2]
+	(No symbol) [0x0x7ff7593dd859]
+	(No symbol) [0x0x7ff7593dd51d]
+	(No symbol) [0x0x7ff7593db08c]
+	(No symbol) [0x0x7ff7593db91c]
+	(No symbol) [0x0x7ff7593f46da]
+	(No symbol) [0x0x7ff75949a47e]
+	(No symbol) [0x0x7ff75947122a]
+	(No symbol) [0x0x7ff75949968a]
+	(No symbol) [0x0x7ff759471003]
+	(No symbol) [0x0x7ff7594395d1]
+	(No symbol) [0x0x7ff75943a3f3]
+	GetHandleVerifier [0x0x7ff75992dc7d+2960429]
+	GetHandleVerifier [0x0x7ff759927f3a+2936554]
+	GetHandleVerifier [0x0x7ff759948977+3070247]
+	GetHandleVerifier [0x0x7ff7596883ce+185214]
+	GetHandleVerifier [0x0x7ff75968fe1f+216527]
+	GetHandleVerifier [0x0x7ff759677b24+117460]
+	GetHandleVerifier [0x0x7ff759677cdf+117903]
+	GetHandleVerifier [0x0x7ff75965dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-24 11:00:31,445 - ERROR - contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff75966e8e5+80021]
+	GetHandleVerifier [0x0x7ff75966e940+80112]
+	(No symbol) [0x0x7ff7593f060f]
+	(No symbol) [0x0x7ff7593ed0bf]
+	(No symbol) [0x0x7ff7593ddae9]
+	(No symbol) [0x0x7ff7593df94e]
+	(No symbol) [0x0x7ff7593de0d2]
+	(No symbol) [0x0x7ff7593dd859]
+	(No symbol) [0x0x7ff7593dd51d]
+	(No symbol) [0x0x7ff7593db08c]
+	(No symbol) [0x0x7ff7593db91c]
+	(No symbol) [0x0x7ff7593f46da]
+	(No symbol) [0x0x7ff75949a47e]
+	(No symbol) [0x0x7ff75947122a]
+	(No symbol) [0x0x7ff75949968a]
+	(No symbol) [0x0x7ff759471003]
+	(No symbol) [0x0x7ff7594395d1]
+	(No symbol) [0x0x7ff75943a3f3]
+	GetHandleVerifier [0x0x7ff75992dc7d+2960429]
+	GetHandleVerifier [0x0x7ff759927f3a+2936554]
+	GetHandleVerifier [0x0x7ff759948977+3070247]
+	GetHandleVerifier [0x0x7ff7596883ce+185214]
+	GetHandleVerifier [0x0x7ff75968fe1f+216527]
+	GetHandleVerifier [0x0x7ff759677b24+117460]
+	GetHandleVerifier [0x0x7ff759677cdf+117903]
+	GetHandleVerifier [0x0x7ff75965dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-24 11:04:27,986 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:08:33,408 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:13:31,447 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:17:54,994 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:18:14,397 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:20:28,845 - ERROR - contaduria - Error general: HTTPConnectionPool(host='localhost', port=50358): Read timed out. (read timeout=120)
+2025-10-24 11:21:40,378 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:21:52,152 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:22:37,177 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:22:50,746 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:25:03,969 - ERROR - contaduria - Error general: HTTPConnectionPool(host='localhost', port=50466): Read timed out. (read timeout=120)
+2025-10-24 11:32:52,987 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:33:13,522 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:33:40,504 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:36:14,362 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:36:25,847 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:36:42,607 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:39:03,250 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:39:09,430 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:40:07,591 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:40:17,672 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:45:51,141 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:54:16,772 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:54:41,185 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 11:58:21,982 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 12:02:35,982 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 12:04:36,724 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 12:25:24,280 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 12:37:33,466 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 12:37:48,242 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 12:45:01,583 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-24 12:47:14,958 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 12:04:25,377 - ERROR - 
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True},
+
+    contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b5864f]
+	(No symbol) [0x0x7ff704b910f2]
+	(No symbol) [0x0x7ff704b8b89f]
+	(No symbol) [0x0x7ff704b8a94a]
+	(No symbol) [0x0x7ff704ada765]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	(No symbol) [0x0x7ff704ad970e]
+	GetHandleVerifier [0x0x7ff705186a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 12:04:39,184 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 14:14:38,934 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 14:20:04,895 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 14:20:12,699 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 14:20:19,763 - ERROR - 
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True},
+
+    contaduria - Error general: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704afd4aa]
+	(No symbol) [0x0x7ff704afc34f]
+	(No symbol) [0x0x7ff704b2177a]
+	(No symbol) [0x0x7ff704b20a76]
+	(No symbol) [0x0x7ff704b20bcc]
+	(No symbol) [0x0x7ff704bb99f6]
+	(No symbol) [0x0x7ff704b91003]
+	(No symbol) [0x0x7ff704b595d1]
+	(No symbol) [0x0x7ff704b5a3f3]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	GetHandleVerifier [0x0x7ff704d97b24+117460]
+	GetHandleVerifier [0x0x7ff704d97cdf+117903]
+	GetHandleVerifier [0x0x7ff704d7dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 14:20:30,429 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 14:22:33,190 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 15:44:29,215 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 15:45:16,801 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 15:46:18,815 - ERROR - 
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True},
+
+    contaduria - Error general: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704afd4aa]
+	(No symbol) [0x0x7ff704afc34f]
+	(No symbol) [0x0x7ff704b2177a]
+	(No symbol) [0x0x7ff704b20a76]
+	(No symbol) [0x0x7ff704bb99f6]
+	(No symbol) [0x0x7ff704b91003]
+	(No symbol) [0x0x7ff704b595d1]
+	(No symbol) [0x0x7ff704b5a3f3]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	GetHandleVerifier [0x0x7ff704d97b24+117460]
+	GetHandleVerifier [0x0x7ff704d97cdf+117903]
+	GetHandleVerifier [0x0x7ff704d7dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 15:47:03,381 - ERROR - [retroceder_tab] Error con selector 'body > footer > div > div > div.col-lg-2.no-split.split-top.screen-md-sm.logos_movil > div.logo > a > img': Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b69dc3]
+	(No symbol) [0x0x7ff704b5b7c8]
+	(No symbol) [0x0x7ff704b9122a]
+	(No symbol) [0x0x7ff704b5b056]
+	(No symbol) [0x0x7ff704b91440]
+	(No symbol) [0x0x7ff704bb968a]
+	(No symbol) [0x0x7ff704b91003]
+	(No symbol) [0x0x7ff704b595d1]
+	(No symbol) [0x0x7ff704b5a3f3]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	GetHandleVerifier [0x0x7ff704d97b24+117460]
+	GetHandleVerifier [0x0x7ff704d97cdf+117903]
+	GetHandleVerifier [0x0x7ff704d7dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 16:01:11,403 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:01:50,607 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:02:59,276 - ERROR - [retroceder_tab] Error con selector 'body > footer > div > div > div.col-lg-2.no-split.split-top.screen-md-sm.logos_movil > div.logo > a > img': Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b69dc3]
+	(No symbol) [0x0x7ff704b5b7c8]
+	(No symbol) [0x0x7ff704b9122a]
+	(No symbol) [0x0x7ff704b5b056]
+	(No symbol) [0x0x7ff704b91440]
+	(No symbol) [0x0x7ff704bb968a]
+	(No symbol) [0x0x7ff704b91003]
+	(No symbol) [0x0x7ff704b595d1]
+	(No symbol) [0x0x7ff704b5a3f3]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	GetHandleVerifier [0x0x7ff704d97b24+117460]
+	GetHandleVerifier [0x0x7ff704d97cdf+117903]
+	GetHandleVerifier [0x0x7ff704d7dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 16:07:11,010 - ERROR - [retroceder_tab] Error con selector 'body > footer > div > div > div.col-lg-2.no-split.split-top.screen-md-sm.logos_movil > div.logo > a > img': Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b69dc3]
+	(No symbol) [0x0x7ff704b5b7c8]
+	(No symbol) [0x0x7ff704b9122a]
+	(No symbol) [0x0x7ff704b5b056]
+	(No symbol) [0x0x7ff704b91440]
+	(No symbol) [0x0x7ff704bb968a]
+	(No symbol) [0x0x7ff704b91003]
+	(No symbol) [0x0x7ff704b595d1]
+	(No symbol) [0x0x7ff704b5a3f3]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	GetHandleVerifier [0x0x7ff704d97b24+117460]
+	GetHandleVerifier [0x0x7ff704d97cdf+117903]
+	GetHandleVerifier [0x0x7ff704d7dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 16:13:54,443 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:14:35,358 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:15:21,377 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:20:26,286 - ERROR - [retroceder_tab] Error con selector 'body > footer > div > div > div.col-lg-4.no-split > p > a:nth-child(2)': Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b5864f]
+	(No symbol) [0x0x7ff704b910f2]
+	(No symbol) [0x0x7ff704b8b89f]
+	(No symbol) [0x0x7ff704b8a94a]
+	(No symbol) [0x0x7ff704ada765]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	(No symbol) [0x0x7ff704ad970e]
+	GetHandleVerifier [0x0x7ff705186a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 16:20:30,308 - ERROR - 
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True},
+
+    contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b5864f]
+	(No symbol) [0x0x7ff704b910f2]
+	(No symbol) [0x0x7ff704b8b89f]
+	(No symbol) [0x0x7ff704b8a94a]
+	(No symbol) [0x0x7ff704ada765]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	(No symbol) [0x0x7ff704ad970e]
+	GetHandleVerifier [0x0x7ff705186a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 16:21:04,924 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:21:38,231 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:22:33,006 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:22:39,058 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:24:52,554 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:26:17,815 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:27:32,479 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:31:34,986 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:33:41,983 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:33:52,128 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 16:37:04,751 - ERROR - [retroceder_tab] Error con selector '#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(6) > button': Message: Elemento no encontrado: #panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(6) > button
+
+2025-10-25 17:22:40,333 - ERROR - [retroceder_tab] Error con selector '#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(6) > button': Message: Elemento no encontrado: #panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(6) > button
+
+2025-10-25 17:50:22,063 - ERROR - [retroceder_tab] Error con selector '#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(6) > button': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b1060f]
+	(No symbol) [0x0x7ff704afc145]
+	(No symbol) [0x0x7ff704b2177a]
+	(No symbol) [0x0x7ff704b98b06]
+	(No symbol) [0x0x7ff704bb8fa2]
+	(No symbol) [0x0x7ff704b91003]
+	(No symbol) [0x0x7ff704b595d1]
+	(No symbol) [0x0x7ff704b5a3f3]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	GetHandleVerifier [0x0x7ff704d97b24+117460]
+	GetHandleVerifier [0x0x7ff704d97cdf+117903]
+	GetHandleVerifier [0x0x7ff704d7dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 17:50:26,192 - ERROR - 
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True},
+
+    contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b5864f]
+	(No symbol) [0x0x7ff704b910f2]
+	(No symbol) [0x0x7ff704b8b89f]
+	(No symbol) [0x0x7ff704b8a94a]
+	(No symbol) [0x0x7ff704ada765]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	(No symbol) [0x0x7ff704ad970e]
+	GetHandleVerifier [0x0x7ff705186a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 17:50:27,914 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 17:52:29,201 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 17:53:22,646 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 17:56:12,481 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 17:59:37,943 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:01:10,461 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:01:40,389 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:01:45,258 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:01:50,609 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:04:33,115 - ERROR - [retroceder_tab] Error con selector '#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(6) > button': Message: Elemento no encontrado: #panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(6) > button
+
+2025-10-25 18:09:04,098 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:10:41,115 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:11:18,331 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:14:03,213 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:14:50,976 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:15:08,301 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:17:11,622 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:18:59,689 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #rc-anchor-classic-warning > div > a
+
+2025-10-25 18:19:52,490 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:21:43,482 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:21:51,285 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:23:05,589 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:24:59,401 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:28:49,034 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:29:49,278 - ERROR - rues - Error general: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b1060f]
+	(No symbol) [0x0x7ff704afc145]
+	(No symbol) [0x0x7ff704b2177a]
+	(No symbol) [0x0x7ff704b98b06]
+	(No symbol) [0x0x7ff704bb8fa2]
+	(No symbol) [0x0x7ff704b91003]
+	(No symbol) [0x0x7ff704b595d1]
+	(No symbol) [0x0x7ff704b5a3f3]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	GetHandleVerifier [0x0x7ff704d97b24+117460]
+	GetHandleVerifier [0x0x7ff704d97cdf+117903]
+	GetHandleVerifier [0x0x7ff704d7dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 18:29:49,484 - ERROR - ofac - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b5864f]
+	(No symbol) [0x0x7ff704b910f2]
+	(No symbol) [0x0x7ff704b8b89f]
+	(No symbol) [0x0x7ff704b8a94a]
+	(No symbol) [0x0x7ff704ada765]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	(No symbol) [0x0x7ff704ad970e]
+	GetHandleVerifier [0x0x7ff705186a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 18:29:49,493 - ERROR - contraloria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b5864f]
+	(No symbol) [0x0x7ff704b910f2]
+	(No symbol) [0x0x7ff704b8b89f]
+	(No symbol) [0x0x7ff704b8a94a]
+	(No symbol) [0x0x7ff704ada765]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	(No symbol) [0x0x7ff704ad970e]
+	GetHandleVerifier [0x0x7ff705186a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 18:29:49,498 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff704d8e8e5+80021]
+	GetHandleVerifier [0x0x7ff704d8e940+80112]
+	(No symbol) [0x0x7ff704b10425]
+	(No symbol) [0x0x7ff704b5864f]
+	(No symbol) [0x0x7ff704b910f2]
+	(No symbol) [0x0x7ff704b8b89f]
+	(No symbol) [0x0x7ff704b8a94a]
+	(No symbol) [0x0x7ff704ada765]
+	GetHandleVerifier [0x0x7ff70504dc7d+2960429]
+	GetHandleVerifier [0x0x7ff705047f3a+2936554]
+	GetHandleVerifier [0x0x7ff705068977+3070247]
+	GetHandleVerifier [0x0x7ff704da83ce+185214]
+	GetHandleVerifier [0x0x7ff704dafe1f+216527]
+	(No symbol) [0x0x7ff704ad970e]
+	GetHandleVerifier [0x0x7ff705186a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-25 18:29:52,990 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:30:02,468 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:30:09,165 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:30:18,966 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:32:35,745 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:32:57,082 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:33:14,531 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:33:21,804 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-25 18:36:27,996 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(6) > button
+
+2025-10-25 18:39:11,871 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:08:48,004 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:14:46,462 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:14:53,775 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:15:01,611 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:17:25,919 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:17:43,297 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:37:33,802 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:37:56,481 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 10:40:56,726 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-26 10:45:13,048 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-26 10:56:00,408 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:00:04,773 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:11:25,610 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:11:47,519 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:12:41,427 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:12:47,487 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:13:02,107 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:16:03,459 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:23:07,729 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:24:54,829 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:29:22,382 - ERROR - 
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True},
+
+    contaduria - Error general: HTTPConnectionPool(host='localhost', port=57956): Read timed out. (read timeout=120)
+2025-10-26 11:33:59,695 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:36:22,961 - ERROR - 
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True},
+
+    contaduria - Error general: HTTPConnectionPool(host='localhost', port=58092): Read timed out. (read timeout=120)
+2025-10-26 11:41:31,939 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:45:06,874 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:46:41,824 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:51:50,124 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:51:59,577 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:52:05,808 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:52:14,318 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:54:39,420 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 11:58:28,648 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:00:37,009 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:00:52,156 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:00:56,907 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:01:29,173 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:03:49,727 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:04:15,381 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:04:28,402 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:07:15,928 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-26 12:09:35,931 - ERROR - 
+    "rues": {
+        "url": "https://www.rues.org.co",
+        "input_selector": "#search",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.75},
+            {"tipo": "click", "selector": "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > button"},
+            {"tipo": "captura", "descripcion": "cerrar_popup"},
+            {"tipo": "click", "selector": "#app > main > div > div > div > div > div.row.card-result.p-4 > div.col.font-rues--small.d-flex.flex-column.justify-content-end > div > div:nth-child(1) > a"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_general > span"},
+            {"tipo": "captura", "descripcion": "pestana_general"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_economica > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_representante > span"},
+            {"tipo": "click", "selector": "#detail-tabs-tab-pestana_establecimientos > span"},
+            {"tipo": "scroll", "valor": 200},
+            {"tipo": "captura", "descripcion": "scroll_final"}
+        ],
+        "descargar": True,
+        "captura_pantalla": True
+    },
+    "ofac": {
+        "url": "https://sanctionssearch.ofac.treas.gov/",
+        "input_selector": "#ctl00_MainContent_txtID",
+        "eventos_teclado": [Keys.ENTER],
+        "extra_eventos": [
+            {"tipo": "zoom", "valor": 0.7},
+            {"tipo": "scroll", "valor": 30}
+        ],
+        "descargar": False,
+        "captura_pantalla": True
+    },
+
+    "contraloria": {
+        "url": "https://www.contraloria.gov.co/web/guest/persona-juridica",
+        "iframe_tag": "iframe",
+        "input_selector": "//input[@type='text']",
+        "eventos_teclado": [Keys.TAB, Keys.ENTER],
+        "descargar": True},
+
+    contaduria - Error general: HTTPConnectionPool(host='localhost', port=59692): Read timed out. (read timeout=120)
+2025-10-27 12:00:48,467 - ERROR - [retroceder_tab] Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff787f0e9e5+80021]
+	GetHandleVerifier [0x0x7ff787f0ea40+80112]
+	(No symbol) [0x0x7ff787c90425]
+	(No symbol) [0x0x7ff787cd864f]
+	(No symbol) [0x0x7ff787d110f2]
+	(No symbol) [0x0x7ff787d0b89f]
+	(No symbol) [0x0x7ff787d0a94a]
+	(No symbol) [0x0x7ff787c5a765]
+	GetHandleVerifier [0x0x7ff7881cdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7881c804a+2936570]
+	GetHandleVerifier [0x0x7ff7881e8a87+3070263]
+	GetHandleVerifier [0x0x7ff787f284ce+185214]
+	GetHandleVerifier [0x0x7ff787f2ff1f+216527]
+	(No symbol) [0x0x7ff787c5970e]
+	GetHandleVerifier [0x0x7ff788306b78+4241960]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 12:00:54,037 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-27 12:01:34,925 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-27 12:01:57,267 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-27 12:11:31,691 - ERROR - contraloria - Error general: HTTPConnectionPool(host='localhost', port=59312): Read timed out. (read timeout=120)
+2025-10-27 12:13:03,022 - ERROR - rues - Error general: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67006e8e5+80021]
+	GetHandleVerifier [0x0x7ff67006e940+80112]
+	(No symbol) [0x0x7ff66fdf0425]
+	(No symbol) [0x0x7ff66fddd4aa]
+	(No symbol) [0x0x7ff66fddc34f]
+	(No symbol) [0x0x7ff66fe0177a]
+	(No symbol) [0x0x7ff66fe00a76]
+	(No symbol) [0x0x7ff66fe00bcc]
+	(No symbol) [0x0x7ff66fe999f6]
+	(No symbol) [0x0x7ff66fe71003]
+	(No symbol) [0x0x7ff66fe395d1]
+	(No symbol) [0x0x7ff66fe3a3f3]
+	GetHandleVerifier [0x0x7ff67032dc7d+2960429]
+	GetHandleVerifier [0x0x7ff670327f3a+2936554]
+	GetHandleVerifier [0x0x7ff670348977+3070247]
+	GetHandleVerifier [0x0x7ff6700883ce+185214]
+	GetHandleVerifier [0x0x7ff67008fe1f+216527]
+	GetHandleVerifier [0x0x7ff670077b24+117460]
+	GetHandleVerifier [0x0x7ff670077cdf+117903]
+	GetHandleVerifier [0x0x7ff67005dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 12:13:03,334 - ERROR - ofac - Error general: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67006e8e5+80021]
+	GetHandleVerifier [0x0x7ff67006e940+80112]
+	(No symbol) [0x0x7ff66fdf060f]
+	(No symbol) [0x0x7ff66fddc145]
+	(No symbol) [0x0x7ff66fe0177a]
+	(No symbol) [0x0x7ff66fe78b06]
+	(No symbol) [0x0x7ff66fe98fa2]
+	(No symbol) [0x0x7ff66fe71003]
+	(No symbol) [0x0x7ff66fe395d1]
+	(No symbol) [0x0x7ff66fe3a3f3]
+	GetHandleVerifier [0x0x7ff67032dc7d+2960429]
+	GetHandleVerifier [0x0x7ff670327f3a+2936554]
+	GetHandleVerifier [0x0x7ff670348977+3070247]
+	GetHandleVerifier [0x0x7ff6700883ce+185214]
+	GetHandleVerifier [0x0x7ff67008fe1f+216527]
+	GetHandleVerifier [0x0x7ff670077b24+117460]
+	GetHandleVerifier [0x0x7ff670077cdf+117903]
+	GetHandleVerifier [0x0x7ff67005dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 12:13:03,646 - ERROR - contraloria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67006e8e5+80021]
+	GetHandleVerifier [0x0x7ff67006e940+80112]
+	(No symbol) [0x0x7ff66fdf0425]
+	(No symbol) [0x0x7ff66fe3864f]
+	(No symbol) [0x0x7ff66fe710f2]
+	(No symbol) [0x0x7ff66fe6b89f]
+	(No symbol) [0x0x7ff66fe6a94a]
+	(No symbol) [0x0x7ff66fdba765]
+	GetHandleVerifier [0x0x7ff67032dc7d+2960429]
+	GetHandleVerifier [0x0x7ff670327f3a+2936554]
+	GetHandleVerifier [0x0x7ff670348977+3070247]
+	GetHandleVerifier [0x0x7ff6700883ce+185214]
+	GetHandleVerifier [0x0x7ff67008fe1f+216527]
+	(No symbol) [0x0x7ff66fdb970e]
+	GetHandleVerifier [0x0x7ff670466a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 12:13:03,654 - ERROR - contaduria - Error general: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67006e8e5+80021]
+	GetHandleVerifier [0x0x7ff67006e940+80112]
+	(No symbol) [0x0x7ff66fdf0425]
+	(No symbol) [0x0x7ff66fe3864f]
+	(No symbol) [0x0x7ff66fe710f2]
+	(No symbol) [0x0x7ff66fe6b89f]
+	(No symbol) [0x0x7ff66fe6a94a]
+	(No symbol) [0x0x7ff66fdba765]
+	GetHandleVerifier [0x0x7ff67032dc7d+2960429]
+	GetHandleVerifier [0x0x7ff670327f3a+2936554]
+	GetHandleVerifier [0x0x7ff670348977+3070247]
+	GetHandleVerifier [0x0x7ff6700883ce+185214]
+	GetHandleVerifier [0x0x7ff67008fe1f+216527]
+	(No symbol) [0x0x7ff66fdb970e]
+	GetHandleVerifier [0x0x7ff670466a68+4241944]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 12:13:05,303 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67006e8e5+80021]
+	GetHandleVerifier [0x0x7ff67006e940+80112]
+	(No symbol) [0x0x7ff66fdf060f]
+	(No symbol) [0x0x7ff66fdc82f1]
+	(No symbol) [0x0x7ff66fe788be]
+	(No symbol) [0x0x7ff66fe98fa2]
+	(No symbol) [0x0x7ff66fe71003]
+	(No symbol) [0x0x7ff66fe395d1]
+	(No symbol) [0x0x7ff66fe3a3f3]
+	GetHandleVerifier [0x0x7ff67032dc7d+2960429]
+	GetHandleVerifier [0x0x7ff670327f3a+2936554]
+	GetHandleVerifier [0x0x7ff670348977+3070247]
+	GetHandleVerifier [0x0x7ff6700883ce+185214]
+	GetHandleVerifier [0x0x7ff67008fe1f+216527]
+	GetHandleVerifier [0x0x7ff670077b24+117460]
+	GetHandleVerifier [0x0x7ff670077cdf+117903]
+	GetHandleVerifier [0x0x7ff67005dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 12:18:37,248 - ERROR - contraloria - Error al cambiar a iframe: Message: Elemento no encontrado: iframe
+
+2025-10-27 12:18:47,356 - ERROR - contraloria - Error al procesar input: Message: Elemento no encontrado: //input[@type='text']
+
+2025-10-27 12:19:22,388 - ERROR - [retroceder_tab] Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67006e8e5+80021]
+	GetHandleVerifier [0x0x7ff67006e940+80112]
+	(No symbol) [0x0x7ff66fdf060f]
+	(No symbol) [0x0x7ff66fdc82f1]
+	(No symbol) [0x0x7ff66fe788be]
+	(No symbol) [0x0x7ff66fe98fa2]
+	(No symbol) [0x0x7ff66fe71003]
+	(No symbol) [0x0x7ff66fe395d1]
+	(No symbol) [0x0x7ff66fe3a3f3]
+	GetHandleVerifier [0x0x7ff67032dc7d+2960429]
+	GetHandleVerifier [0x0x7ff670327f3a+2936554]
+	GetHandleVerifier [0x0x7ff670348977+3070247]
+	GetHandleVerifier [0x0x7ff6700883ce+185214]
+	GetHandleVerifier [0x0x7ff67008fe1f+216527]
+	GetHandleVerifier [0x0x7ff670077b24+117460]
+	GetHandleVerifier [0x0x7ff670077cdf+117903]
+	GetHandleVerifier [0x0x7ff67005dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 12:19:34,403 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67006e8e5+80021]
+	GetHandleVerifier [0x0x7ff67006e940+80112]
+	(No symbol) [0x0x7ff66fdf060f]
+	(No symbol) [0x0x7ff66fdc82f1]
+	(No symbol) [0x0x7ff66fe788be]
+	(No symbol) [0x0x7ff66fe98fa2]
+	(No symbol) [0x0x7ff66fe71003]
+	(No symbol) [0x0x7ff66fe395d1]
+	(No symbol) [0x0x7ff66fe3a3f3]
+	GetHandleVerifier [0x0x7ff67032dc7d+2960429]
+	GetHandleVerifier [0x0x7ff670327f3a+2936554]
+	GetHandleVerifier [0x0x7ff670348977+3070247]
+	GetHandleVerifier [0x0x7ff6700883ce+185214]
+	GetHandleVerifier [0x0x7ff67008fe1f+216527]
+	GetHandleVerifier [0x0x7ff670077b24+117460]
+	GetHandleVerifier [0x0x7ff670077cdf+117903]
+	GetHandleVerifier [0x0x7ff67005dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 12:36:48,053 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-27 12:38:43,742 - ERROR - rues - Error al procesar input: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67006e8e5+80021]
+	GetHandleVerifier [0x0x7ff67006e940+80112]
+	(No symbol) [0x0x7ff66fdf060f]
+	(No symbol) [0x0x7ff66fddc145]
+	(No symbol) [0x0x7ff66fe0177a]
+	(No symbol) [0x0x7ff66fe78b06]
+	(No symbol) [0x0x7ff66fe98fa2]
+	(No symbol) [0x0x7ff66fe71003]
+	(No symbol) [0x0x7ff66fe395d1]
+	(No symbol) [0x0x7ff66fe3a3f3]
+	GetHandleVerifier [0x0x7ff67032dc7d+2960429]
+	GetHandleVerifier [0x0x7ff670327f3a+2936554]
+	GetHandleVerifier [0x0x7ff670348977+3070247]
+	GetHandleVerifier [0x0x7ff6700883ce+185214]
+	GetHandleVerifier [0x0x7ff67008fe1f+216527]
+	GetHandleVerifier [0x0x7ff670077b24+117460]
+	GetHandleVerifier [0x0x7ff670077cdf+117903]
+	GetHandleVerifier [0x0x7ff67005dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-27 15:15:38,052 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-27 15:15:54,675 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-27 15:16:11,810 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-27 15:16:19,493 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-27 15:19:53,995 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 10:28:50,747 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 10:28:58,104 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 10:29:06,938 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 10:38:17,786 - ERROR - rues - Error al procesar input: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:38:18,526 - ERROR - ofac - Error al procesar input: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:38:18,550 - ERROR - ofac - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:38:18,558 - ERROR - contraloria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:38:18,570 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:38:32,956 - ERROR - rues - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:38:32,964 - ERROR - ofac - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:38:32,971 - ERROR - contraloria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:38:32,978 - ERROR - contaduria - Error general: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db5582f1]
+	(No symbol) [0x0x7ff7db6088be]
+	(No symbol) [0x0x7ff7db628fa2]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 10:53:37,770 - ERROR - contaduria - Error general: HTTPConnectionPool(host='localhost', port=54346): Read timed out. (read timeout=120)
+2025-10-28 11:05:33,123 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 11:10:23,315 - ERROR - contraloria - Error general: HTTPConnectionPool(host='localhost', port=53673): Read timed out. (read timeout=120)
+2025-10-28 11:14:04,376 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-28 14:36:32,283 - ERROR - rues - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db57d0bf]
+	(No symbol) [0x0x7ff7db56dae9]
+	(No symbol) [0x0x7ff7db56f94e]
+	(No symbol) [0x0x7ff7db56e0d2]
+	(No symbol) [0x0x7ff7db56d859]
+	(No symbol) [0x0x7ff7db56d51d]
+	(No symbol) [0x0x7ff7db56b08c]
+	(No symbol) [0x0x7ff7db56b91c]
+	(No symbol) [0x0x7ff7db5846da]
+	(No symbol) [0x0x7ff7db62a47e]
+	(No symbol) [0x0x7ff7db60122a]
+	(No symbol) [0x0x7ff7db62968a]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 14:36:32,415 - ERROR - ofac - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db57d0bf]
+	(No symbol) [0x0x7ff7db56dae9]
+	(No symbol) [0x0x7ff7db56f94e]
+	(No symbol) [0x0x7ff7db56e0d2]
+	(No symbol) [0x0x7ff7db56d859]
+	(No symbol) [0x0x7ff7db56d51d]
+	(No symbol) [0x0x7ff7db56b08c]
+	(No symbol) [0x0x7ff7db56b91c]
+	(No symbol) [0x0x7ff7db5846da]
+	(No symbol) [0x0x7ff7db62a47e]
+	(No symbol) [0x0x7ff7db60122a]
+	(No symbol) [0x0x7ff7db62968a]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 14:36:32,516 - ERROR - contraloria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db57d0bf]
+	(No symbol) [0x0x7ff7db56dae9]
+	(No symbol) [0x0x7ff7db56f94e]
+	(No symbol) [0x0x7ff7db56e0d2]
+	(No symbol) [0x0x7ff7db56d859]
+	(No symbol) [0x0x7ff7db56d51d]
+	(No symbol) [0x0x7ff7db56b08c]
+	(No symbol) [0x0x7ff7db56b91c]
+	(No symbol) [0x0x7ff7db5846da]
+	(No symbol) [0x0x7ff7db62a47e]
+	(No symbol) [0x0x7ff7db60122a]
+	(No symbol) [0x0x7ff7db62968a]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 14:36:32,606 - ERROR - contaduria - Error general: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7db7fe9e5+80021]
+	GetHandleVerifier [0x0x7ff7db7fea40+80112]
+	(No symbol) [0x0x7ff7db58060f]
+	(No symbol) [0x0x7ff7db57d0bf]
+	(No symbol) [0x0x7ff7db56dae9]
+	(No symbol) [0x0x7ff7db56f94e]
+	(No symbol) [0x0x7ff7db56e0d2]
+	(No symbol) [0x0x7ff7db56d859]
+	(No symbol) [0x0x7ff7db56d51d]
+	(No symbol) [0x0x7ff7db56b08c]
+	(No symbol) [0x0x7ff7db56b91c]
+	(No symbol) [0x0x7ff7db5846da]
+	(No symbol) [0x0x7ff7db62a47e]
+	(No symbol) [0x0x7ff7db60122a]
+	(No symbol) [0x0x7ff7db62968a]
+	(No symbol) [0x0x7ff7db601003]
+	(No symbol) [0x0x7ff7db5c95d1]
+	(No symbol) [0x0x7ff7db5ca3f3]
+	GetHandleVerifier [0x0x7ff7dbabdd8d+2960445]
+	GetHandleVerifier [0x0x7ff7dbab804a+2936570]
+	GetHandleVerifier [0x0x7ff7dbad8a87+3070263]
+	GetHandleVerifier [0x0x7ff7db8184ce+185214]
+	GetHandleVerifier [0x0x7ff7db81ff1f+216527]
+	GetHandleVerifier [0x0x7ff7db807c24+117460]
+	GetHandleVerifier [0x0x7ff7db807ddf+117903]
+	GetHandleVerifier [0x0x7ff7db7edcb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 14:37:18,875 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 14:37:40,805 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 14:42:13,751 - ERROR - ofac - Error general: HTTPConnectionPool(host='localhost', port=52183): Read timed out. (read timeout=120)
+2025-10-28 14:44:13,802 - ERROR - contraloria - Error general: HTTPConnectionPool(host='localhost', port=52183): Read timed out. (read timeout=120)
+2025-10-28 14:47:34,789 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 14:53:17,440 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-28 15:32:33,039 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:33:10,726 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:33:20,703 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:34:03,418 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:34:15,097 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:34:26,125 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:34:52,083 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:34:58,121 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:35:09,530 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:41:13,356 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-28 15:43:12,218 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:43:32,032 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:43:39,257 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:43:47,013 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:54:04,044 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 15:54:16,151 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:11:56,428 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:14:44,117 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:15:30,022 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:20:47,494 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:25:53,146 - ERROR - contraloria - Error general: HTTPConnectionPool(host='localhost', port=64566): Read timed out. (read timeout=120)
+2025-10-28 16:28:04,841 - ERROR - Error al tomar captura de contaduria: Message: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fbece8e5+80021]
+	GetHandleVerifier [0x0x7ff7fbece940+80112]
+	(No symbol) [0x0x7ff7fbc5060f]
+	(No symbol) [0x0x7ff7fbc3d82f]
+	(No symbol) [0x0x7ff7fbc3d51d]
+	(No symbol) [0x0x7ff7fbc3b08c]
+	(No symbol) [0x0x7ff7fbc3bb0b]
+	(No symbol) [0x0x7ff7fbc61d90]
+	(No symbol) [0x0x7ff7fbd09217]
+	(No symbol) [0x0x7ff7fbcd122a]
+	(No symbol) [0x0x7ff7fbcf968a]
+	(No symbol) [0x0x7ff7fbcd1003]
+	(No symbol) [0x0x7ff7fbc995d1]
+	(No symbol) [0x0x7ff7fbc9a3f3]
+	GetHandleVerifier [0x0x7ff7fc18dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7fc187f3a+2936554]
+	GetHandleVerifier [0x0x7ff7fc1a8977+3070247]
+	GetHandleVerifier [0x0x7ff7fbee83ce+185214]
+	GetHandleVerifier [0x0x7ff7fbeefe1f+216527]
+	GetHandleVerifier [0x0x7ff7fbed7b24+117460]
+	GetHandleVerifier [0x0x7ff7fbed7cdf+117903]
+	GetHandleVerifier [0x0x7ff7fbebdbb8+11112]
+	BaseThreadInitThunk [0x0x7ffc9f907374+20]
+	RtlUserThreadStart [0x0x7ffca171cc91+33]
+
+2025-10-28 16:28:56,291 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:30:37,440 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:32:01,214 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:32:55,638 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:43:28,445 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:47:05,253 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-28 16:47:59,558 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 09:46:03,663 - ERROR - rues - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6b751e9e5+80021]
+	GetHandleVerifier [0x0x7ff6b751ea40+80112]
+	(No symbol) [0x0x7ff6b72a060f]
+	(No symbol) [0x0x7ff6b729d0bf]
+	(No symbol) [0x0x7ff6b728dae9]
+	(No symbol) [0x0x7ff6b728f94e]
+	(No symbol) [0x0x7ff6b728e0d2]
+	(No symbol) [0x0x7ff6b728d859]
+	(No symbol) [0x0x7ff6b728d51d]
+	(No symbol) [0x0x7ff6b728b08c]
+	(No symbol) [0x0x7ff6b728b91c]
+	(No symbol) [0x0x7ff6b72a46da]
+	(No symbol) [0x0x7ff6b734a47e]
+	(No symbol) [0x0x7ff6b732122a]
+	(No symbol) [0x0x7ff6b734968a]
+	(No symbol) [0x0x7ff6b7321003]
+	(No symbol) [0x0x7ff6b72e95d1]
+	(No symbol) [0x0x7ff6b72ea3f3]
+	GetHandleVerifier [0x0x7ff6b77ddd8d+2960445]
+	GetHandleVerifier [0x0x7ff6b77d804a+2936570]
+	GetHandleVerifier [0x0x7ff6b77f8a87+3070263]
+	GetHandleVerifier [0x0x7ff6b75384ce+185214]
+	GetHandleVerifier [0x0x7ff6b753ff1f+216527]
+	GetHandleVerifier [0x0x7ff6b7527c24+117460]
+	GetHandleVerifier [0x0x7ff6b7527ddf+117903]
+	GetHandleVerifier [0x0x7ff6b750dcb8+11112]
+	BaseThreadInitThunk [0x0x7ffaa39e7374+20]
+	RtlUserThreadStart [0x0x7ffaa4a7cc91+33]
+
+2025-10-30 09:46:09,931 - ERROR - ofac - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6b751e9e5+80021]
+	GetHandleVerifier [0x0x7ff6b751ea40+80112]
+	(No symbol) [0x0x7ff6b72a060f]
+	(No symbol) [0x0x7ff6b729d0bf]
+	(No symbol) [0x0x7ff6b728dae9]
+	(No symbol) [0x0x7ff6b728f94e]
+	(No symbol) [0x0x7ff6b728e0d2]
+	(No symbol) [0x0x7ff6b728d859]
+	(No symbol) [0x0x7ff6b728d51d]
+	(No symbol) [0x0x7ff6b728b08c]
+	(No symbol) [0x0x7ff6b728b91c]
+	(No symbol) [0x0x7ff6b72a46da]
+	(No symbol) [0x0x7ff6b734a47e]
+	(No symbol) [0x0x7ff6b732122a]
+	(No symbol) [0x0x7ff6b734968a]
+	(No symbol) [0x0x7ff6b7321003]
+	(No symbol) [0x0x7ff6b72e95d1]
+	(No symbol) [0x0x7ff6b72ea3f3]
+	GetHandleVerifier [0x0x7ff6b77ddd8d+2960445]
+	GetHandleVerifier [0x0x7ff6b77d804a+2936570]
+	GetHandleVerifier [0x0x7ff6b77f8a87+3070263]
+	GetHandleVerifier [0x0x7ff6b75384ce+185214]
+	GetHandleVerifier [0x0x7ff6b753ff1f+216527]
+	GetHandleVerifier [0x0x7ff6b7527c24+117460]
+	GetHandleVerifier [0x0x7ff6b7527ddf+117903]
+	GetHandleVerifier [0x0x7ff6b750dcb8+11112]
+	BaseThreadInitThunk [0x0x7ffaa39e7374+20]
+	RtlUserThreadStart [0x0x7ffaa4a7cc91+33]
+
+2025-10-30 09:46:59,307 - ERROR - contraloria - Error general: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6b751e9e5+80021]
+	GetHandleVerifier [0x0x7ff6b751ea40+80112]
+	(No symbol) [0x0x7ff6b72a060f]
+	(No symbol) [0x0x7ff6b729d0bf]
+	(No symbol) [0x0x7ff6b728dae9]
+	(No symbol) [0x0x7ff6b728f94e]
+	(No symbol) [0x0x7ff6b728e0d2]
+	(No symbol) [0x0x7ff6b728d859]
+	(No symbol) [0x0x7ff6b728d51d]
+	(No symbol) [0x0x7ff6b728b08c]
+	(No symbol) [0x0x7ff6b728b91c]
+	(No symbol) [0x0x7ff6b72a46da]
+	(No symbol) [0x0x7ff6b734a47e]
+	(No symbol) [0x0x7ff6b732122a]
+	(No symbol) [0x0x7ff6b734968a]
+	(No symbol) [0x0x7ff6b7321003]
+	(No symbol) [0x0x7ff6b72e95d1]
+	(No symbol) [0x0x7ff6b72ea3f3]
+	GetHandleVerifier [0x0x7ff6b77ddd8d+2960445]
+	GetHandleVerifier [0x0x7ff6b77d804a+2936570]
+	GetHandleVerifier [0x0x7ff6b77f8a87+3070263]
+	GetHandleVerifier [0x0x7ff6b75384ce+185214]
+	GetHandleVerifier [0x0x7ff6b753ff1f+216527]
+	GetHandleVerifier [0x0x7ff6b7527c24+117460]
+	GetHandleVerifier [0x0x7ff6b7527ddf+117903]
+	GetHandleVerifier [0x0x7ff6b750dcb8+11112]
+	BaseThreadInitThunk [0x0x7ffaa39e7374+20]
+	RtlUserThreadStart [0x0x7ffaa4a7cc91+33]
+
+2025-10-30 09:48:59,325 - ERROR - contaduria - Error general: HTTPConnectionPool(host='localhost', port=50117): Read timed out. (read timeout=120)
+2025-10-30 09:51:34,817 - ERROR - rues - Error general: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6b751e9e5+80021]
+	GetHandleVerifier [0x0x7ff6b751ea40+80112]
+	(No symbol) [0x0x7ff6b72a060f]
+	(No symbol) [0x0x7ff6b729d0bf]
+	(No symbol) [0x0x7ff6b728dae9]
+	(No symbol) [0x0x7ff6b728f94e]
+	(No symbol) [0x0x7ff6b728e0d2]
+	(No symbol) [0x0x7ff6b728d859]
+	(No symbol) [0x0x7ff6b728d51d]
+	(No symbol) [0x0x7ff6b728b08c]
+	(No symbol) [0x0x7ff6b728b91c]
+	(No symbol) [0x0x7ff6b72a46da]
+	(No symbol) [0x0x7ff6b734a47e]
+	(No symbol) [0x0x7ff6b732122a]
+	(No symbol) [0x0x7ff6b734968a]
+	(No symbol) [0x0x7ff6b7321003]
+	(No symbol) [0x0x7ff6b72e95d1]
+	(No symbol) [0x0x7ff6b72ea3f3]
+	GetHandleVerifier [0x0x7ff6b77ddd8d+2960445]
+	GetHandleVerifier [0x0x7ff6b77d804a+2936570]
+	GetHandleVerifier [0x0x7ff6b77f8a87+3070263]
+	GetHandleVerifier [0x0x7ff6b75384ce+185214]
+	GetHandleVerifier [0x0x7ff6b753ff1f+216527]
+	GetHandleVerifier [0x0x7ff6b7527c24+117460]
+	GetHandleVerifier [0x0x7ff6b7527ddf+117903]
+	GetHandleVerifier [0x0x7ff6b750dcb8+11112]
+	BaseThreadInitThunk [0x0x7ffaa39e7374+20]
+	RtlUserThreadStart [0x0x7ffaa4a7cc91+33]
+
+2025-10-30 10:02:23,256 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-30 10:32:37,764 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-30 10:35:45,258 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-30 11:08:57,018 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 11:09:19,469 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\urls.py changed, reloading.
+2025-10-30 11:09:27,721 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\seleniumweb\urls.py changed, reloading.
+2025-10-30 11:11:27,628 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 11:12:23,354 - WARNING - Not Found: /favicon.ico
+2025-10-30 11:16:49,508 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 11:17:06,393 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\urls.py changed, reloading.
+2025-10-30 11:17:17,252 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\urls.py changed, reloading.
+2025-10-30 11:17:23,013 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\urls.py changed, reloading.
+2025-10-30 11:17:30,712 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\urls.py changed, reloading.
+2025-10-30 11:17:56,289 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 11:18:03,151 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\seleniumweb\urls.py changed, reloading.
+2025-10-30 11:18:37,287 - WARNING - Not Found: /run/
+2025-10-30 11:18:43,837 - WARNING - Not Found: /run/
+2025-10-30 11:26:37,012 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 11:26:49,774 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 11:27:00,398 - WARNING - Not Found: /run/
+2025-10-30 11:31:18,660 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 11:31:58,236 - WARNING - Method Not Allowed: /run_consulta/
+2025-10-30 11:31:58,305 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 11:33:38,637 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 11:33:38,687 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 11:33:41,423 - WARNING - Not Found: /run/
+2025-10-30 11:38:28,565 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 11:40:49,369 - WARNING - Not Found: /favicon.ico
+2025-10-30 11:43:48,861 - WARNING - Not Found: /favicon.ico
+2025-10-30 11:45:27,733 - ERROR - contraloria - Error al procesar input: Message: Elemento no encontrado: //input[@type='text']
+
+2025-10-30 11:45:54,815 - WARNING - Forbidden (Origin checking failed - https://8b84cb07735d.ngrok-free.app does not match any trusted origins.): /descargas/eliminar/
+2025-10-30 11:46:24,738 - WARNING - Not Found: /favicon.ico
+2025-10-30 11:47:17,814 - WARNING - Forbidden (Origin checking failed - https://8b84cb07735d.ngrok-free.app does not match any trusted origins.): /descargas/eliminar/
+2025-10-30 11:48:06,434 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-30 13:48:34,229 - WARNING - Not Found: /favicon.ico
+2025-10-30 13:53:47,625 - WARNING - Not Found: /favicon.ico
+2025-10-30 13:58:57,691 - WARNING - Not Found: /favicon.ico
+2025-10-30 14:02:56,711 - WARNING - Forbidden (Origin checking failed - https://84527882ee4b.ngrok-free.app does not match any trusted origins.): /descargas/eliminar/
+2025-10-30 14:03:02,531 - WARNING - Forbidden (Origin checking failed - https://84527882ee4b.ngrok-free.app does not match any trusted origins.): /descargas/eliminar/
+2025-10-30 14:05:48,940 - WARNING - Not Found: /favicon.ico
+2025-10-30 14:08:12,389 - WARNING - Not Found: /favicon.ico
+2025-10-30 14:09:39,548 - WARNING - Not Found: /favicon.ico
+2025-10-30 14:15:21,368 - ERROR - rues - Error al procesar input: Message: Elemento no encontrado: #search
+
+2025-10-30 14:20:30,904 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-30 14:54:21,609 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 14:56:34,743 - WARNING - Not Found: /favicon.ico
+2025-10-30 14:58:25,104 - ERROR - Internal Server Error: /descargas/generar_pdf/
+2025-10-30 15:00:40,258 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:01:11,141 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:01:19,461 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:05:04,107 - ERROR - Internal Server Error: /descargas/generar_pdf/
+2025-10-30 15:07:11,346 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:11:27,061 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:12:13,054 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:14:55,876 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:18:34,500 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:22:16,099 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:23:22,660 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\urls.py changed, reloading.
+2025-10-30 15:25:19,094 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\urls.py changed, reloading.
+2025-10-30 15:27:07,982 - WARNING - Not Found: /generar_pdf/
+2025-10-30 15:27:15,407 - WARNING - Not Found: /generar_pdf/
+2025-10-30 15:27:20,962 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 15:29:33,330 - ERROR - Internal Server Error: /run_consulta/
+2025-10-30 15:29:49,202 - WARNING - Not Found: /generar_pdf/
+2025-10-30 15:31:41,273 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:31:54,945 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:32:01,456 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:33:26,455 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:35:22,990 - INFO - C:\Users\Edinson\AppData\Local\Programs\Python\Python313\Lib\site-packages\pypandoc\handler.py changed, reloading.
+2025-10-30 15:35:47,185 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:36:17,330 - WARNING - Not Found: /favicon.ico
+2025-10-30 15:36:49,485 - WARNING - Not Found: /generar_pdf/
+2025-10-30 15:37:33,752 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:37:49,202 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:37:54,185 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:39:32,109 - WARNING - Not Found: /generar_pdf/
+2025-10-30 15:39:37,428 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 15:40:00,708 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:41:32,323 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:42:01,406 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:42:11,551 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:42:24,603 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 15:44:00,062 - WARNING - Not Found: /generar_pdf/
+2025-10-30 15:44:27,152 - WARNING - Not Found: /generar_pdf/
+2025-10-30 15:44:30,557 - WARNING - Not Found: /generar_pdf/
+2025-10-30 15:47:52,143 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:48:40,363 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:49:29,876 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:50:23,018 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:50:47,348 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:50:55,488 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:51:00,965 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:51:14,763 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:51:19,009 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:51:22,813 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:51:57,369 - WARNING - Not Found: /favicon.ico
+2025-10-30 15:52:26,457 - ERROR - Internal Server Error: /run_consulta/
+2025-10-30 15:53:02,988 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:53:40,422 - ERROR - Internal Server Error: /run_consulta/
+2025-10-30 15:54:10,563 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:54:16,363 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:54:20,252 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 15:56:58,856 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 16:00:15,520 - ERROR - Internal Server Error: /run_consulta/
+2025-10-30 16:02:20,295 - WARNING - Not Found: /generar_pdf/
+2025-10-30 16:04:15,453 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 16:04:29,267 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 16:04:35,650 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 16:38:49,780 - ERROR - Internal Server Error: /run_consulta/
+2025-10-30 16:39:07,183 - WARNING - Not Found: /generar_pdf/
+2025-10-30 16:40:27,199 - WARNING - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 16:44:24,779 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 16:49:43,039 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 16:49:50,391 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 16:50:53,031 - WARNING - Not Found: /favicon.ico
+2025-10-30 16:54:58,356 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 16:55:29,173 - WARNING - Not Found: /favicon.ico
+2025-10-30 16:55:47,429 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 16:59:33,633 - ERROR - [retroceder_tab] Error general: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+
+2025-10-30 17:01:26,268 - WARNING - Not Found: /generar_pdf/
+2025-10-30 17:45:59,551 - WARNING - Not Found: /favicon.ico
+2025-10-30 17:54:19,983 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 17:54:52,196 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 17:54:59,503 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 17:55:24,901 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\seleniumweb\settings.py changed, reloading.
+2025-10-30 18:04:14,219 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 18:11:10,949 - WARNING - Not Found: /generar_pdf/
+2025-10-30 18:16:50,623 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 18:18:35,075 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 18:18:42,299 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.
+2025-10-30 18:19:04,915 - WARNING - Not Found: /generar_pdf/
+2025-10-30 18:20:22,824 - WARNING - Not Found: /favicon.ico
+2025-10-30 18:29:23,973 - ERROR - Internal Server Error: /run_consulta/
+2025-10-30 18:34:36,747 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 18:35:09,919 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\selenium_script.py changed, reloading.
+2025-10-30 18:38:12,049 - ERROR - Internal Server Error: /run_consulta/
+2025-10-30 18:39:07,583 - INFO - C:\Users\Edinson\Desktop\TODO\CODIGOS\14_CONSULTOR\V7\seleniumweb\automa\views.py changed, reloading.

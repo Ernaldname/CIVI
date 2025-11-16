@@ -1,2 +1,2 @@
-2025-10-30 18:37:54 - [INICIO] Foco inicial en selector: div#recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
-2025-10-30 18:37:54 - [FIN] Enter ejecutado correctamente en: div#recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+2025-11-16 10:07:36 - [ERROR] Error general en retroceder_tab: Message: Elemento no encontrado: #recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)
+

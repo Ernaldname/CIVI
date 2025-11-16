@@ -11,7 +11,7 @@ from selenium.common.exceptions import (
     NoAlertPresentException,
     TimeoutException
 )
-from selenium.webdriver.common.action_chains import ActionChains  # ✅ Import necesario
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 # ===================================================
@@ -37,21 +37,15 @@ NUMERO_DOCUMENTO = None
 # ===================================================
 
 def tomar_captura(driver, pagina, evento="inicio"):
-    """
-    Toma una captura del contenido visible en pantalla con resolución forzada (ej. 1920x1080).
-    Asegura nitidez y tamaño consistente incluso en modo headless.
-    """
     nombre = f"{pagina}_{evento}.png"
     ruta = os.path.join(DOWNLOAD_PATH, nombre)
 
     try:
-        # 🔧 Forzar tamaño de ventana (Chrome a veces lo ignora en headless)
-        ancho, alto = 1920, 1080  # puedes subir a 2560x1440 si quieres más detalle
+        ancho, alto = 1920, 1080
         driver.set_window_size(ancho, alto)
         driver.execute_script("document.body.style.zoom='1';")
         time.sleep(0.3)
 
-        # Captura visible
         driver.save_screenshot(ruta)
         capturas.append(f"/media/descargas/{nombre}")
 
@@ -60,7 +54,6 @@ def tomar_captura(driver, pagina, evento="inicio"):
     except Exception as e:
         logging.error(f"Error al tomar captura visible de {pagina}: {e}")
         print(f"⚠️ Error al tomar captura visible de {pagina}: {e}")
-
 
 
 def esperar(driver, metodo, selector, timeout=10, clickable=False):
@@ -97,6 +90,7 @@ def procesar_input(driver, config, pagina):
     selector = config.get("input_selector")
     if not selector:
         return
+
     metodo = By.XPATH if selector.startswith("//") else By.CSS_SELECTOR
     try:
         input_box = esperar(driver, metodo, selector)
@@ -132,113 +126,14 @@ def manejar_descarga(pagina, timeout=15):
 
 
 # ===================================================
-# ✅ FUNCIÓN REFACTORIZADA
+# ✅ EJECUCIÓN DE EVENTOS
 # ===================================================
-def retroceder_tab(driver, selector, cantidad=1):
-    """
-    Simula presionar Shift+Tab desde un elemento específico.
-    Guarda un registro detallado con los selectores CSS exactos por los que pasa.
-    Al finalizar, hace clic en el último elemento enfocado.
-    """
-    log_path = os.path.join(BASE_DIR, "retroceder_tab.log")
-
-    # 🧾 Función auxiliar para registrar cada línea
-    def registrar_linea(texto):
-        with open(log_path, "a", encoding="utf-8") as f:
-            f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {texto}\n")
-
-    # 🧠 Función auxiliar para construir un selector CSS completo de un elemento
-    def obtener_selector_completo(elemento):
-        return driver.execute_script("""
-        function getElementSelector(el) {
-            if (!(el instanceof Element)) return '';
-            const path = [];
-            while (el.nodeType === Node.ELEMENT_NODE) {
-                let selector = el.nodeName.toLowerCase();
-                if (el.id) {
-                    selector += '#' + el.id;
-                    path.unshift(selector);
-                    break;
-                } else {
-                    let sibling = el;
-                    let nth = 1;
-                    while (sibling = sibling.previousElementSibling) nth++;
-                    selector += `:nth-child(${nth})`;
-                }
-                path.unshift(selector);
-                el = el.parentNode;
-            }
-            return path.join(' > ');
-        }
-        return getElementSelector(arguments[0]);
-        """, elemento)
-
-    try:
-        el = esperar(driver, By.CSS_SELECTOR, selector)
-        driver.execute_script("arguments[0].focus();", el)
-        time.sleep(0.5)
-
-        activo = driver.switch_to.active_element
-        selector_inicial = obtener_selector_completo(activo)
-        registrar_linea(f"[INICIO] Foco inicial en selector: {selector_inicial}")
-        logging.info(f"[retroceder_tab] Foco inicial en: {selector_inicial}")
-        print(f"🎯 Foco inicial en: {selector_inicial}")
-
-        acciones = ActionChains(driver)
-        for i in range(cantidad):
-            acciones.key_down(Keys.SHIFT).send_keys(Keys.TAB).key_up(Keys.SHIFT).perform()
-            time.sleep(0.5)
-
-            activo = driver.switch_to.active_element
-            selector_actual = obtener_selector_completo(activo)
-            tag = activo.tag_name
-            texto = (activo.text or activo.get_attribute("value") or "").strip()[:60]
-
-            registrar_linea(f"[PASO {i+1}/{cantidad}] {selector_actual} → texto='{texto}'")
-            logging.info(f"[retroceder_tab] Paso {i+1}/{cantidad}: {selector_actual}")
-            print(f"➡️ Retroceso {i+1}/{cantidad}: {selector_actual}")
-
-        # ⌨️ Intentar presionar Enter en el último elemento enfocado
-        activo = driver.switch_to.active_element
-        selector_final = obtener_selector_completo(activo)
-        print(f"🕵️ Intentando presionar Enter en: {selector_final}")
-
-        try:
-            exito = False
-            fin = time.time() + 5  # reintenta durante 5 segundos
-            while time.time() < fin and not exito:
-                try:
-                    driver.execute_script("arguments[0].scrollIntoView(true);", activo)
-                    time.sleep(0.1)
-                    acciones = ActionChains(driver)
-                    acciones.send_keys(Keys.ENTER).perform()
-                    exito = True
-                    registrar_linea(f"[FIN] Enter ejecutado correctamente en: {selector_final}")
-                    logging.info(f"[retroceder_tab] Enter ejecutado correctamente en: {selector_final}")
-                    print(f"✅ Enter presionado correctamente en: {selector_final}")
-                except Exception:
-                    time.sleep(0.1)
-                    activo = driver.switch_to.active_element  # por si cambia el foco
-            if not exito:
-                registrar_linea(f"[FIN] No se logró presionar Enter en: {selector_final}")
-                logging.warning(f"[retroceder_tab] No se logró presionar Enter en: {selector_final}")
-                print(f"⚠️ No se logró presionar Enter en el último elemento.")
-        except Exception as e:
-            registrar_linea(f"[FIN] Error al intentar presionar Enter '{selector_final}': {e}")
-            logging.warning(f"[retroceder_tab] Error al intentar presionar Enter: {e}")
-    except Exception as e:
-        logging.error(f"[retroceder_tab] Error general: {e}")
-        registrar_linea(f"[ERROR] Error general en retroceder_tab: {e}")
-
 
 def ejecutar_evento(driver, pagina, evento, index):
     tipo = evento["tipo"]
     try:
         if tipo == "scroll":
             driver.execute_script(f"window.scrollBy(0, {evento['valor']});")
-
-        elif tipo == "retroceder_tab":
-            retroceder_tab(driver, evento["selector"], evento.get("cantidad", 1))
 
         elif tipo == "zoom":
             driver.execute_script(f"document.body.style.zoom='{evento['valor']}';")
@@ -274,9 +169,9 @@ def ejecutar_evento(driver, pagina, evento, index):
                         time.sleep(0.1)
                 driver.switch_to.default_content()
                 if not exito:
-                    print("⚠️ No se pudo hacer clic en el reCAPTCHA tras varios intentos.")
+                    print("⚠️ No se pudo hacer clic en el reCAPTCHA.")
             except Exception as e:
-                logging.warning(f"{pagina} - Error en evento {index} ({tipo}): {e}")
+                logging.warning(f"{pagina} - Error evento {index} ({tipo}): {e}")
 
         elif tipo == "escribir":
             el = esperar(driver, By.CSS_SELECTOR, evento["selector"])
@@ -337,7 +232,6 @@ def procesar_pagina(driver, pagina, config):
 # ===================================================
 
 paginas = {
-    
     "rues": {
         "url": "https://www.rues.org.co",
         "input_selector": "#search",
@@ -377,37 +271,7 @@ paginas = {
         "input_selector": "//input[@type='text']",
         "eventos_teclado": [Keys.TAB, Keys.ENTER],
         "descargar": True
-    },
-
-
-    "contaduria": {
-        "url": "https://eris.contaduria.gov.co/BDME/",
-        "iframe_tag": None,
-        "extra_eventos": [
-            {"tipo": "zoom", "valor": 0.8},
-            {"tipo": "scroll", "valor": 100},
-            {"tipo": "click", "selector": "#panelMenu > ul > li:nth-child(1) > a"},            
-            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.diaslogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input"},
-            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > input", "texto": "66860241"},
-            {"tipo": "scroll", "valor": 100},
-            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input"},
-            {"tipo": "escribir", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > input", "texto": "9610845"},
-            {"tipo": "click", "selector": "body > div.gwt-DialogBox > div > table > tbody > tr.dialogMiddle > td.dialogMiddleCenter > div > table > tbody > tr:nth-child(5) > td > button"},
-            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select"},
-            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(1) > div > select > option:nth-child(2)"},
-            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input"},
-            {"tipo": "escribir", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(2) > div > input", "texto": "{DOC}"},
-            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select"},
-            {"tipo": "click", "selector": "#panelPrincipal > div > div > div > div > div:nth-child(2) > form > div:nth-child(3) > div > select > option:nth-child(2)"},
-            {"tipo": "retroceder_tab", "selector": "#recaptcha > div:nth-child(1) > div:nth-child(1) > iframe:nth-child(1)", "cantidad": 0},      
-            {"tipo": "captura", "descripcion": "pestana_general"},
-            {"tipo": "retraso", "valor": 10}
-        ],
-        "descargar": False,
-        "captura_pantalla": True
-    },
-
-
+    }
 }
 
 
@@ -427,36 +291,23 @@ def ejecutar_consulta(numero_doc):
         "safebrowsing.enabled": True
     })
 
-    open(os.path.join(BASE_DIR, "retroceder_tab.log"), "w").close()
+    open(os.path.join(BASE_DIR, "errores.log"), "w").close()
 
-    # ===================================================
-    # 🚀 OPCIONES DE RENDIMIENTO Y CALIDAD VISUAL
-    # ===================================================
-
-    # Modo sin interfaz gráfica, pero con renderizado moderno y completo
     chrome_options.add_argument("--headless=new")
-
-    # Asegura que el área visible sea de alta resolución (ideal para capturas)
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.add_argument("--start-maximized")
 
-    # Fuerza un renderizado de buena calidad en modo headless
     chrome_options.add_argument("--force-device-scale-factor=1")
     chrome_options.add_argument("--high-dpi-support=1")
-    chrome_options.add_argument("--disable-gpu")  # evita errores en entornos sin GPU
-    chrome_options.add_argument("--disable-software-rasterizer")  # mejora la precisión del render
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-software-rasterizer")
 
-    # Oculta elementos visuales innecesarios
     chrome_options.add_argument("--hide-scrollbars")
     chrome_options.add_argument("--disable-popup-blocking")
     chrome_options.add_argument("--disable-infobars")
 
-    # Mejora compatibilidad y estabilidad
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
 
-    # ===================================================
-    # ⚙️ OPCIONES YA PRESENTES (manteniendo tu base)
-    # ===================================================
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-background-networking")
@@ -473,7 +324,6 @@ def ejecutar_consulta(numero_doc):
     chrome_options.add_argument("--log-level=3")
     chrome_options.add_experimental_option("excludeSwitches", ["enable-logging", "enable-automation"])
 
-    # Crear el driver
     driver = webdriver.Chrome(options=chrome_options)
     driver.maximize_window()
 

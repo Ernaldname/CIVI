@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{% static 'automa/estilos.css' %}">
     <link rel="icon" href="{% static 'automa/favicon.ico' %}" type="image/x-icon">
 </head>
+<script src="{% static 'js/efectos.js' %}"></script>
 <body>
 
     <!-- 🎥 Video de fondo -->
@@ -37,14 +38,13 @@
                 <br><br>
                 <label for="numero_de_documento">NÚMERO ID:</label>
                 <input type="number" id="numero_de_documento" name="numero_de_documento">
-
                 <br><br>
-
                 <button class="boton-animado" onclick="buscarPN()">Enviar</button>
                 <br><br>
-                
-                <a href="{% url 'listar_archivos' %}">
-                    <button type="button" class="boton-animado">📂 Ver Descargas</button>
+                <a href="{% url 'descargar_informe' %}">
+                    <button type="button" class="boton-animado">⬇️ Descargar Informe</button>
+</a>
+
             </div>
         </fieldset>
     </div>

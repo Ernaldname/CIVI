@@ -8,8 +8,52 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{% static 'automa/estilos.css' %}">
     <link rel="icon" href="{% static 'automa/favicon.ico' %}" type="image/x-icon">
+
+    <!-- Efectos -->
+    <script src="{% static 'js/efectos.js' %}"></script>
 </head>
-<script src="{% static 'js/efectos.js' %}"></script>
+
+<!-- ⏳ ANIMACIÓN DE CARGA -->
+<div id="loader" class="loader oculto">
+    <div class="spinner"></div>
+    <p>Procesando consulta... por favor espere</p>
+</div>
+
+<style>
+    .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.75);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        z-index: 9999;
+    }
+    .oculto {
+        display: none;
+    }
+
+    .spinner {
+        width: 60px;
+        height: 60px;
+        border: 6px solid #ddd;
+        border-top-color: #3498db;
+        border-radius: 50%;
+        animation: girar 1s linear infinite;
+        margin-bottom: 15px;
+    }
+
+    @keyframes girar {
+        to { transform: rotate(360deg); }
+    }
+</style>
+
 <body>
 
     <!-- 🎥 Video de fondo -->
@@ -25,6 +69,7 @@
             <legend> INGRESE DATOS DE SU CONSULTA </legend>
 
             <div style="text-align:center;"> 
+
                 <label for="tipo_de_documento">TIPO DE DOCUMENTO:</label>
                 <select class="milista1" id="tipo_de_documento"> 
                     <option value="CC">CÉDULA DE CIUDADANÍA</option>
@@ -33,26 +78,79 @@
 
                 <br><br>
 
+                <!-- Campo recuperado del index viejo -->
                 <label for="nombre_de_id">NOMBRE:</label>
-                <input type="nameId" id="nombre_de_id" name="nombre_de_id">
+                <input type="text" id="nombre_de_id" name="nombre_de_id">
+
                 <br><br>
+
                 <label for="numero_de_documento">NÚMERO ID:</label>
                 <input type="number" id="numero_de_documento" name="numero_de_documento">
+
                 <br><br>
+
                 <button class="boton-animado" onclick="buscarPN()">Enviar</button>
+
                 <br><br>
+
+                <!-- Botón nuevo (descargar informe) -->
                 <a href="{% url 'descargar_informe' %}">
                     <button type="button" class="boton-animado">⬇️ Descargar Informe</button>
-</a>
+                </a>
+
+                <br><br>
 
             </div>
         </fieldset>
     </div>
 
-    <!-- 🧾 Contenedor para mostrar resultados -->
+
+    <!-- 🔽 LISTA DE INFORMES GENERADOS (nuevo) -->
+    <div class="contenedor-central" style="margin-top: 40px;">
+        <fieldset class="ajustado">
+            <legend> INFORMES GENERADOS </legend>
+
+            <ul id="lista-informes" style="text-align:left; font-size:18px;">
+                <li>Cargando archivos...</li>
+            </ul>
+        </fieldset>
+    </div>
+
+    <script>
+        // ======== 📌 Cargar lista de informes ========
+        function cargarInformes() {
+            fetch("/listar_archivos_json/")
+                .then(response => response.json())
+                .then(data => {
+                    const ul = document.getElementById("lista-informes");
+                    ul.innerHTML = "";
+
+                    if (data.archivos.length === 0) {
+                        ul.innerHTML = "<li>No hay informes generados todavía.</li>";
+                        return;
+                    }
+
+                    data.archivos.forEach(archivo => {
+                        const li = document.createElement("li");
+                        li.innerHTML = `<a href="${archivo.url}" target="_blank">📄 ${archivo.nombre}</a>`;
+                        ul.appendChild(li);
+                    });
+                })
+                .catch(err => {
+                    console.error("Error cargando informes:", err);
+                    document.getElementById("lista-informes").innerHTML =
+                        "<li>Error cargando informes.</li>";
+                });
+        }
+
+        // Ejecutar al cargar
+        document.addEventListener("DOMContentLoaded", cargarInformes);
+    </script>
+
     <div id="resultados" style="text-align:center; margin-top:20px;"></div>
 
-    <!-- JS -->
+    <!-- Script principal -->
     <script src="{% static 'automa/script.js' %}"></script>
+
 </body>
 </html>

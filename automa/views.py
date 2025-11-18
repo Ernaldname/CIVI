@@ -261,3 +261,19 @@ def generar_y_descargar_pdf(request):
             content_type="text/html",
             status=500
         )
+from django.http import JsonResponse
+
+def listar_archivos_json(request):
+    carpeta = os.path.join(settings.MEDIA_ROOT, "descargas")
+
+    archivos = []
+
+    if os.path.exists(carpeta):
+        for nombre in os.listdir(carpeta):
+            if nombre.lower().endswith(".pdf"):
+                archivos.append({
+                    "nombre": nombre,
+                    "url": settings.MEDIA_URL + "descargas/" + nombre
+                })
+
+    return JsonResponse({"archivos": archivos})

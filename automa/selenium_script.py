@@ -271,7 +271,7 @@ paginas = {
         "input_selector": "//input[@type='text']",
         "eventos_teclado": [Keys.TAB, Keys.ENTER],
         "descargar": True
-    }
+    },
 }
 
 

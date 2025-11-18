@@ -12,63 +12,58 @@
 // Envía el número de documento al servidor Django y espera una respuesta JSON.
 
 async function buscarPN() {
-    // Se obtiene el valor ingresado por el usuario en el campo de documento
     const numDoc = document.getElementById("numero_de_documento").value;
 
-    // Validación: si el campo está vacío, se detiene la ejecución
     if (!numDoc) {
         alert("Por favor ingresa un número de documento.");
         return;
     }
 
-    // Bloque principal protegido con try/catch para manejar errores de conexión
+    // 👉 MUESTRA LOADER
+    document.getElementById("loader").classList.remove("oculto");
+
     try {
-        // Se envía una solicitud POST a la ruta Django /run_consulta/
         const response = await fetch("/run_consulta/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded",
-                "X-CSRFToken": getCSRFToken() // Token necesario para seguridad CSRF
+                "X-CSRFToken": getCSRFToken()
             },
-            // El cuerpo envía el número de documento codificado correctamente
             body: "numero=" + encodeURIComponent(numDoc)
         });
 
-        // 🔎 Se obtiene la respuesta del servidor como texto plano
         const text = await response.text();
         let data;
 
         try {
-            // Intentamos convertir la respuesta en un objeto JSON
             data = JSON.parse(text);
         } catch {
-            // Si falla, quiere decir que Django devolvió HTML o un error no esperado
             console.error("⚠️ Respuesta del servidor (no JSON):", text);
-            alert("❌ El servidor devolvió una respuesta inesperada. Revisa la consola (F12) para ver el detalle.");
+            alert("❌ El servidor devolvió una respuesta inesperada.");
             return;
         }
 
-        // ✅ Si la conversión a JSON fue exitosa, se actualiza la interfaz con los resultados
         const resultados = document.getElementById("resultados");
-        resultados.innerHTML = ""; // Limpia resultados anteriores
+        resultados.innerHTML = "";
 
-        // Verifica el estado enviado por Django
         if (data.status === "ok") {
-            alert(data.msg); // Muestra mensaje de éxito
+            alert("✅ Proceso completado correctamente.");
             if (data.tiempo) {
-                // Muestra tiempo de ejecución si está presente
                 resultados.innerHTML += `<p>⏱ Tiempo de ejecución: ${data.tiempo}</p>`;
             }
         } else {
-            // Si Django devolvió error lógico, se muestra su mensaje
-            alert(data.msg);
+            alert("⚠️ " + data.msg);
         }
 
     } catch (error) {
-        // Captura errores de red o del fetch
         alert("❌ Error al procesar la consulta: " + error);
+
+    } finally {
+        // 👉 OCULTA LOADER SIEMPRE (éxito o error)
+        document.getElementById("loader").classList.add("oculto");
     }
 }
+
 
 // ======= 2️⃣ FUNCIÓN DE SEGURIDAD CSRF =======
 // Django requiere que cada solicitud POST incluya un token CSRF.
